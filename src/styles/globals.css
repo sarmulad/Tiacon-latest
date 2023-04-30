@@ -1,0 +1,233 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0A0F20;
+  color:#fff;
+  overflow-x: hidden !important;
+}
+
+html{
+  overflow-x:hidden;
+  scroll-behavior: smooth !important;
+
+}
+
+.video-wrapper{
+  width:100%;
+  height:auto;
+}
+.active{
+  background: linear-gradient(109.88deg, #38DBFF 1.73%, #243AFF 107.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.gradient-text{
+  background: linear-gradient(109.88deg, #38DBFF 1.73%, #243AFF 107.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.border-gradient{
+  border-top:1px solid;
+  padding-top:2rem;
+  border-image: linear-gradient(109.88deg, #38DBFF 1.73%, #243AFF 107.46%) 1;
+}
+
+.gradient-button{
+  background: linear-gradient(109.88deg, #38DBFF 1.73%, #243AFF 107.46%);
+  transition: 0s background-color;
+}
+.gradient-button:hover{
+  background:transparent;
+  border: 1px solid #38DBFF;
+  transition-delay:1s;
+}
+.gradient-white{
+  background: linear-gradient(169.73deg, #FFFFFF 60.54%, rgba(192, 197, 198, 0) 195.34%);
+}
+.gradient-text-white{
+  background: linear-gradient(169.73deg, #FFFFFF 60.54%, rgba(192, 197, 198, 0) 195.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.features-card:nth-child(2n){
+  margin-top:-50px;
+}
+
+.video-wrapper{
+   position: relative;
+}
+
+
+.bg-custom-color {
+  background-color: var(--bg-color);
+  padding:30px;
+  border-radius:13px;
+}
+
+.btn-custom-color {
+  background-color: var(--bg-color);
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: auto;
+}
+
+.swiper-slide  {
+  display: block;
+  width: 100%;
+}
+
+.gradient {
+  width: 100%;
+  height: 100%;
+}
+
+
+.card-item {
+  display: flex;
+  grid-gap: 30px;
+  animation: cambio 15s infinite linear;
+  animation-delay: 3s;
+  transition: transform 0.5s ease;
+
+}
+
+.card-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+@keyframes cambio {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+/* // home page gradient animation */
+
+
+.text-animation {
+  background: linear-gradient(45deg, #f3ec78, #af4261, #7b1f80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animateGradient 5s ease infinite;
+}
+
+@keyframes animateGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+/* other styles */
+video.covers {
+  /* override other styles to make responsive */
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  object-fit: fill;
+}
+
+@keyframes text{
+  0% {
+    background-position-x: 0;
+  }
+  50% {
+    background-position-x: 10000px;
+  }
+  100% {
+    background-position-x: 0;
+  }
+}
+
+@keyframes bounce{
+  0%{}
+  50%{transfrom:translateY(10px);}
+  100%{transform:translateY(-10px);}
+}
+
+.animated-text{
+  -webkit-animation: text 75s linear infinite;
+  animation: text 75s linear infinite;
+  background-image: linear-gradient(to left,#fff,#74b0ff,#fff);
+      -webkit-background-clip: text;
+    background-clip: text;
+    color:transparent;
+}
+
+.revolution-img{
+  animation:bounce 1.2s ease-in-out infinite alternate-reverse;
+}
+
+.feature-card{
+  transition: all 0.4s ease-in-out;
+}
+
+.feature-card:hover, .CommunityCard:hover{
+  background: linear-gradient(109.88deg, #38DBFF 1.73%, #243AFF 107.46%);
+}
+
+.feature-card:hover > svg, .CommunityCard:hover> svg{
+  stroke:#fff;
+}
+
+.feature-card:hover > .feature-card-content{
+  transform:translateY(-5px)
+}
+
+.feature-card:hover .feature-card-header,
+.feature-card:hover .feature-card-paragraph{
+  color:#fff !important;
+  background:none !important;
+  -webkit-text-fill-color: white !important;
+}
+
+.feature-card:hover svg path{
+  fill:white;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+  display:none !important;
+}
+
+.btn-white:hover{
+  background:transparent;
+  color:#fff;
+  border-color: #fff;
+}
+
+.btn-gradient:hover{
+  background: linear-gradient(109.88deg, #38DBFF 1.73%, #243AFF 107.46%);
+
+}

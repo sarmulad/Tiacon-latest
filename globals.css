@@ -1,0 +1,27 @@
+
+/* body {
+    font-family: 'Space Grotesk', sans-serif;
+} */
+
+@font-face {
+    font-family: 'GeneralSans';
+    src: url('/fonts/GeneralSans-Light.woff') format('woff');
+    /* Add additional file formats if necessary */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Apply the font to the body or any other selector */
+ 
+  body {
+    font-family: 'GeneralSans', sans-serif;
+    background-color:#0A1126;
+    
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+

@@ -1,0 +1,542 @@
+[
+    {
+      "id": 302,
+      "label": "9mobile 9Payment Service Bank",
+      "value": "120001"
+    },
+    {
+      "id": 174,
+      "label": "Abbey Mortgage Bank",
+      "value": "801"
+    },
+    {
+      "id": 188,
+      "label": "Above Only MFB",
+      "value": "51204"
+    },
+    {
+      "id": 627,
+      "label": "Abulesoro MFB",
+      "value": "51312"
+    },
+    {
+      "id": 1,
+      "label": "Access Bank",
+      "value": "044"
+    },
+    {
+      "id": 3,
+      "label": "Access Bank (Diamond)",
+      "value": "063"
+    },
+    {
+      "id": 495,
+      "label": "Accion Microfinance Bank",
+      "value": "602"
+    },
+    {
+      "id": 676,
+      "label": "Ahmadu Bello University Microfinance Bank",
+      "value": "50036"
+    },
+    {
+      "id": 300,
+      "label": "Airtel Smartcash PSB",
+      "value": "120004"
+    },
+    {
+      "id": 27,
+      "label": "ALAT by WEMA",
+      "value": "035A"
+    },
+    {
+      "id": 179,
+      "label": "Amju Unique MFB",
+      "value": "50926"
+    },
+    {
+      "id": 614,
+      "label": "Aramoko MFB",
+      "value": "50083"
+    },
+    {
+      "id": 63,
+      "label": "ASO Savings and Loans",
+      "value": "401"
+    },
+    {
+      "id": 297,
+      "label": "Astrapolaris MFB LTD",
+      "value": "MFB50094"
+    },
+    {
+      "id": 181,
+      "label": "Bainescredit MFB",
+      "value": "51229"
+    },
+    {
+      "id": 686,
+      "label": "Banc Corp Microfinance Bank",
+      "value": "50117"
+    },
+    {
+      "id": 108,
+      "label": "Bowen Microfinance Bank",
+      "value": "50931"
+    },
+    {
+      "id": 82,
+      "label": "Carbon",
+      "value": "565"
+    },
+    {
+      "id": 74,
+      "label": "CEMCS Microfinance Bank",
+      "value": "50823"
+    },
+    {
+      "id": 284,
+      "label": "Chanelle Microfinance Bank Limited",
+      "value": "50171"
+    },
+    {
+      "id": 2,
+      "label": "Citibank Nigeria",
+      "value": "023"
+    },
+    {
+      "id": 283,
+      "label": "Corestep MFB",
+      "value": "50204"
+    },
+    {
+      "id": 173,
+      "label": "Coronation Merchant Bank",
+      "value": "559"
+    },
+    {
+      "id": 366,
+      "label": "Crescent MFB",
+      "value": "51297"
+    },
+    {
+      "id": 637,
+      "label": "Dot Microfinance Bank",
+      "value": "50162"
+    },
+    {
+      "id": 4,
+      "label": "Ecobank Nigeria",
+      "value": "050"
+    },
+    {
+      "id": 628,
+      "label": "Ekimogun MFB",
+      "value": "50263"
+    },
+    {
+      "id": 64,
+      "label": "Ekondo Microfinance Bank",
+      "value": "098"
+    },
+    {
+      "id": 167,
+      "label": "Eyowo",
+      "value": "50126"
+    },
+    {
+      "id": 677,
+      "label": "Fairmoney Microfinance Bank",
+      "value": "51318"
+    },
+    {
+      "id": 6,
+      "label": "Fidelity Bank",
+      "value": "070"
+    },
+    {
+      "id": 177,
+      "label": "Firmus MFB",
+      "value": "51314"
+    },
+    {
+      "id": 7,
+      "label": "First Bank of Nigeria",
+      "value": "011"
+    },
+    {
+      "id": 8,
+      "label": "First City Monument Bank",
+      "value": "214"
+    },
+    {
+      "id": 682,
+      "label": "FirstTrust Mortgage Bank Nigeria",
+      "value": "107"
+    },
+    {
+      "id": 687,
+      "label": "FLOURISH MFB",
+      "value": "50315"
+    },
+    {
+      "id": 112,
+      "label": "FSDH Merchant Bank Limited",
+      "value": "501"
+    },
+    {
+      "id": 287,
+      "label": "Gateway Mortgage Bank LTD",
+      "value": "812"
+    },
+    {
+      "id": 70,
+      "label": "Globus Bank",
+      "value": "00103"
+    },
+    {
+      "id": 183,
+      "label": "GoMoney",
+      "value": "100022"
+    },
+    {
+      "id": 635,
+      "label": "Goodnews Microfinance Bank",
+      "value": "50739"
+    },
+    {
+      "id": 633,
+      "label": "Greenwich Merchant Bank",
+      "value": "562"
+    },
+    {
+      "id": 9,
+      "label": "Guaranty Trust Bank",
+      "value": "058"
+    },
+    {
+      "id": 111,
+      "label": "Hackman Microfinance Bank",
+      "value": "51251"
+    },
+    {
+      "id": 81,
+      "label": "Hasal Microfinance Bank",
+      "value": "50383"
+    },
+    {
+      "id": 10,
+      "label": "Heritage Bank",
+      "value": "030"
+    },
+    {
+      "id": 301,
+      "label": "HopePSB",
+      "value": "120002"
+    },
+    {
+      "id": 168,
+      "label": "Ibile Microfinance Bank",
+      "value": "51244"
+    },
+    {
+      "id": 615,
+      "label": "Ikoyi Osun MFB",
+      "value": "50439"
+    },
+    {
+      "id": 636,
+      "label": "Ilaro Poly Microfinance Bank",
+      "value": "50442"
+    },
+    {
+      "id": 172,
+      "label": "Infinity MFB",
+      "value": "50457"
+    },
+    {
+      "id": 22,
+      "label": "Jaiz Bank",
+      "value": "301"
+    },
+    {
+      "id": 187,
+      "label": "Kadpoly MFB",
+      "value": "50502"
+    },
+    {
+      "id": 11,
+      "label": "Keystone Bank",
+      "value": "082"
+    },
+    {
+      "id": 184,
+      "label": "Kredi Money MFB LTD",
+      "value": "50200"
+    },
+    {
+      "id": 67,
+      "label": "Kuda Bank",
+      "value": "50211"
+    },
+    {
+      "id": 109,
+      "label": "Lagos Building Investment Company Plc.",
+      "value": "90052"
+    },
+    {
+      "id": 180,
+      "label": "Links MFB",
+      "value": "50549"
+    },
+    {
+      "id": 296,
+      "label": "Living Trust Mortgage Bank",
+      "value": "031"
+    },
+    {
+      "id": 233,
+      "label": "Lotus Bank",
+      "value": "303"
+    },
+    {
+      "id": 175,
+      "label": "Mayfair MFB",
+      "value": "50563"
+    },
+    {
+      "id": 178,
+      "label": "Mint MFB",
+      "value": "50304"
+    },
+    {
+      "id": 688,
+      "label": "Moniepoint MFB",
+      "value": "50515"
+    },
+    {
+      "id": 303,
+      "label": "MTN Momo PSB",
+      "value": "120003"
+    },
+    {
+      "id": 185,
+      "label": "Paga",
+      "value": "100002"
+    },
+    {
+      "id": 169,
+      "label": "PalmPay",
+      "value": "999991"
+    },
+    {
+      "id": 26,
+      "label": "Parallex Bank",
+      "value": "104"
+    },
+    {
+      "id": 110,
+      "label": "Parkway - ReadyCash",
+      "value": "311"
+    },
+    {
+      "id": 171,
+      "label": "Paycom",
+      "value": "999992"
+    },
+    {
+      "id": 683,
+      "label": "Personal Trust MFB",
+      "value": "51146"
+    },
+    {
+      "id": 170,
+      "label": "Petra Mircofinance Bank Plc",
+      "value": "50746"
+    },
+    {
+      "id": 13,
+      "label": "Polaris Bank",
+      "value": "076"
+    },
+    {
+      "id": 626,
+      "label": "Polyunwana MFB",
+      "value": "50864"
+    },
+    {
+      "id": 304,
+      "label": "PremiumTrust Bank",
+      "value": "105"
+    },
+    {
+      "id": 25,
+      "label": "Providus Bank",
+      "value": "101"
+    },
+    {
+      "id": 232,
+      "label": "QuickFund MFB",
+      "value": "51293"
+    },
+    {
+      "id": 176,
+      "label": "Rand Merchant Bank",
+      "value": "502"
+    },
+    {
+      "id": 295,
+      "label": "Refuge Mortgage Bank",
+      "value": "90067"
+    },
+    {
+      "id": 679,
+      "label": "ROCKSHIELD MICROFINANCE BANK",
+      "value": "50767"
+    },
+    {
+      "id": 69,
+      "label": "Rubies MFB",
+      "value": "125"
+    },
+    {
+      "id": 286,
+      "label": "Safe Haven MFB",
+      "value": "51113"
+    },
+    {
+      "id": 609,
+      "label": "Safe Haven Microfinance Bank Limited",
+      "value": "951113"
+    },
+    {
+      "id": 632,
+      "label": "Shield MFB",
+      "value": "50582"
+    },
+    {
+      "id": 365,
+      "label": "Solid Rock MFB",
+      "value": "50800"
+    },
+    {
+      "id": 72,
+      "label": "Sparkle Microfinance Bank",
+      "value": "51310"
+    },
+    {
+      "id": 14,
+      "label": "Stanbic IBTC Bank",
+      "value": "221"
+    },
+    {
+      "id": 15,
+      "label": "Standard Chartered Bank",
+      "value": "068"
+    },
+    {
+      "id": 285,
+      "label": "Stellas MFB",
+      "value": "51253"
+    },
+    {
+      "id": 16,
+      "label": "Sterling Bank",
+      "value": "232"
+    },
+    {
+      "id": 23,
+      "label": "Suntrust Bank",
+      "value": "100"
+    },
+    {
+      "id": 631,
+      "label": "Supreme MFB",
+      "value": "50968"
+    },
+    {
+      "id": 68,
+      "label": "TAJ Bank",
+      "value": "302"
+    },
+    {
+      "id": 634,
+      "label": "Tanadi Microfinance Bank",
+      "value": "090560"
+    },
+    {
+      "id": 186,
+      "label": "Tangerine Money",
+      "value": "51269"
+    },
+    {
+      "id": 75,
+      "label": "TCF MFB",
+      "value": "51211"
+    },
+    {
+      "id": 73,
+      "label": "Titan Bank",
+      "value": "102"
+    },
+    {
+      "id": 629,
+      "label": "Titan Paystack",
+      "value": "100039"
+    },
+    {
+      "id": 630,
+      "label": "Uhuru MFB",
+      "value": "MFB51322"
+    },
+    {
+      "id": 678,
+      "label": "Unaab Microfinance Bank Limited",
+      "value": "50870"
+    },
+    {
+      "id": 282,
+      "label": "Unical MFB",
+      "value": "50871"
+    },
+    {
+      "id": 638,
+      "label": "Unilag Microfinance Bank",
+      "value": "51316"
+    },
+    {
+      "id": 17,
+      "label": "Union Bank of Nigeria",
+      "value": "032"
+    },
+    {
+      "id": 18,
+      "label": "United Bank For Africa",
+      "value": "033"
+    },
+    {
+      "id": 19,
+      "label": "Unity Bank",
+      "value": "215"
+    },
+    {
+      "id": 71,
+      "label": "VFD Microfinance Bank Limited",
+      "value": "566"
+    },
+    {
+      "id": 20,
+      "label": "Wema Bank",
+      "value": "035"
+    },
+    {
+      "id": 21,
+      "label": "Zenith Bank",
+      "value": "057"
+    },
+    {
+      "id": 65,
+      "label": "Zenith Bank",
+      "value": "057"
+    }
+  ]

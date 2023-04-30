@@ -1,0 +1,8 @@
+/* Replace "YourFontName" with the name of your font */
+@font-face {
+    font-family: 'GeneralSans';
+    src: url('/public/fonts/GeneralSans-Medium.woff') format('woff');
+    /* Add additional file formats if necessary */
+    font-weight: normal;
+    font-style: normal;
+  }
