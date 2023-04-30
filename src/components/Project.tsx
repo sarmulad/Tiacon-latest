@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import bg from '../../public/bg.svg';
+// import bg from '../../public/bg.svg';
 import frost from '../../public/frost.svg';
 import Video from './VideoBackground';
 import ArrowLeft from "../icons/arrow-circle-left.svg"
@@ -19,11 +19,16 @@ import {
 	Autoplay,
 } from 'swiper';
 
+import Tree from "../icons/tree.svg";
+import Tiasecure from "../icons/tiasecure.svg";
+import Tiaexchange from "../icons/tiaexchange.svg";
+import Tiamv from "../icons/tiamv.svg"
+
 interface ProjectItemsProp {
 	bgColor?: string;
 	content: string;
 	SubContent: string;
-	icon?: string;
+	icon?: React.ReactNode;
 	btnColor?: string;
 }
 
@@ -48,7 +53,7 @@ const ProjectItem: React.FC<ProjectItemsProp> = ({
 				className="rounded-13px md:px-30px h-full bg-custom-color"
 				style={{ '--bg-color': bgColor } as React.CSSProperties}
 			>
-				<Image src={`/${icon}`} alt="star-icon" height={40} width={136} />
+				  {icon}
 				<p className="text-[14px] md:text-[16px] font-[500] leading-[22px]">
 					{content}
 				</p>
@@ -77,7 +82,7 @@ const Project = () => {
 	return (
 		<>
 			<div className="relative py-5 px-5 md:py-20 md:px-10 md:p-14 " id='project'>
-				<div className='absolute top-0 left-0 h-full w-full bg-black/[.6]'></div>
+				<div className='absolute top-0 left-0 h-full w-full bg-black/[.7]'></div>
 				<Video
 					source="/project.mp4"
 					fallbackImage="projectfallback.svg"
@@ -128,7 +133,7 @@ const Project = () => {
 				>
 					<SwiperSlide>
 						<ProjectItem
-							icon="tiasecure.svg"
+							icon={<Tiasecure/>}
 							bgColor="#16242F"
 							btnColor="#00C8CB"
 							content="TiaSecure project provides comprehensive cyber security protection for all digital assets and personal devices. It safeguards against various cyber threats, including ransomware, spyware, and virus attacks. TiaSecure also ensures online banking, shopping security, protects children online, manages passwords, provides Dark Web Monitoring to prevent identity theft and offers a secure VPN and quick audit reports for smart contracts. It is the ultimate solution for all cyber security needs."
@@ -137,7 +142,7 @@ const Project = () => {
 					</SwiperSlide>
 					<SwiperSlide>
 						<ProjectItem
-							icon="tree.svg"
+							icon={<Tree/>}
 							bgColor="#144b0b"
 							btnColor="#6FA519"
 							content="Treeclan is a family-centric social media platform created by TIA. It allows users to create their own family tree and connect with relatives across generations. Users can also build a secure network with custom security circles, and enjoy a variety of exciting features such as family events, games, virtual shopping, and gifting options. Treeclan ensures the privacy and safety of users' families at all times."
@@ -146,7 +151,7 @@ const Project = () => {
 					</SwiperSlide>
 					<SwiperSlide>
 						<ProjectItem
-							icon="tiaexchange.svg"
+							icon={<Tiaexchange/>}
 							bgColor="#023D47"
 							btnColor="#00B9D8"
 							content="TiaXchange is a trustless method for connecting buyers and sellers, offering equitable involvement and governance for stakeholders. To ensure widespread adoption, TIA continuously refines the user experience, improves infrastructure and scaling mechanisms, and increases connections to centralized crypto and legacy financial institutions."
@@ -155,7 +160,7 @@ const Project = () => {
 					</SwiperSlide>
 					<SwiperSlide>
 						<ProjectItem
-							icon="tiamv.svg"
+							icon={<Tiamv/>}
 							bgColor="#4E1600"
 							btnColor="#F9713C"
 							content="TiaMV is a metaverse that combines all aspects of life in one platform, making it a perfect destination for family and friends to connect and explore. With its crypto-powered technology, users can enjoy seamless integration between NFT marketplaces and 3D virtual universes, and more exciting applications are being developed. TIAMV promises a safe, fun, and innovative virtual world experience. "

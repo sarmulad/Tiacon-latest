@@ -3,6 +3,8 @@ import { useRouter } from "next/router";
 import { useState } from "react";
 import Image from "next/image";
 
+
+
 interface NavItemsProps {
   href: string;
   label: string;

@@ -11,7 +11,6 @@ import { Keyboard, Scrollbar, Navigation, Pagination, Autoplay } from "swiper";
 import ArrowLeft from "../icons/arrow-circle-left.svg"
 import ArrowRight from "../icons/arrow-circle-right.svg"
 
-import styles from '../styles/teamstyles.module.css';
 
 
 interface MemberCardProps {

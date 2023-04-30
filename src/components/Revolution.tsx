@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Button from './Button';
+import TiaIllustration from "../icons/tiaillustration.png"
 
 const Revolution = () => {
 	return (

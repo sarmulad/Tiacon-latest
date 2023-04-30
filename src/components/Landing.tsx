@@ -10,7 +10,7 @@ const Landing = ()=>{
     // const isMobile = useMediaQuery({ maxWidth: 768 });
 
     return(      
-       <div className="">
+       <div className=" h-full">
                <Video
 					source="/web.mp4"
 					fallbackImage="fallback.svg"
