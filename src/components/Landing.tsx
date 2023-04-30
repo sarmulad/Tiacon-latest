@@ -10,7 +10,7 @@ const Landing = ()=>{
     // const isMobile = useMediaQuery({ maxWidth: 768 });
 
     return(      
-       <div className=" h-full">
+       <div className=" h-full md:h-[auto]">
                <Video
 					source="/web.mp4"
 					fallbackImage="fallback.svg"
@@ -56,22 +56,22 @@ const Landing = ()=>{
                             // width:"100%"
                          }}
                         className="flex p-2 md:gap-3 justify-between h-[82px] md:p-5 md:mt-[60px]  cursor-pointer">
-                            <Link href="https://www.facebook.com/TIATOKEN" className="text-[#706F74] font-medium">
+                            <Link href="https://www.facebook.com/TIATOKEN" target="_blank"  className="text-[#706F74] font-medium">
                             <Image src="/fbgrey.svg" width={40} height={40} alt="facebook-icon" />
 					        </Link>
-                            <Link href="https://twitter.com/TiaCoin" className="text-[#706F74] font-medium">
+                            <Link href="https://twitter.com/TiaCoin"  target="_blank" className="text-[#706F74] font-medium">
 					        <Image src="/twtgrey.svg" width={40} height={40} alt="twitter-icon" />
 					        </Link>
-                            <Link href="https://t.me/realtiacoin" className="text-[#706F74] font-medium">
+                            <Link href="https://t.me/realtiacoin" target="_blank" className="text-[#706F74] font-medium">
 					        <Image src="/telgrey.svg" width={40} height={40} alt="telegram-icon" />
 					        </Link>
-                            <Link href="https://www.youtube.com/channel/UCtWS5o3vGdnT1aNgV6ZOVug" className="text-[#706F74] font-medium">
+                            <Link href="https://www.youtube.com/channel/UCtWS5o3vGdnT1aNgV6ZOVug" target="_blank"  className="text-[#706F74] font-medium">
 					        <Image src="/youtgrey.svg" width={40} height={40} alt="youtube-icon" />
 					        </Link>
-                            <Link href="https://www.instagram.com/realtiacoin/?hl=en" className="text-[#706F74] font-medium">
+                            <Link href="https://www.instagram.com/realtiacoin/?hl=en" target="_blank" className="text-[#706F74] font-medium">
 					        <Image src="/iggrey.svg" width={40} height={40} alt="instagram-icon" />
 					        </Link>
-                            <Link href="https://www.linkedin.com/company/tiacoin/" className="text-[#706F74] font-medium">
+                            <Link href="https://www.linkedin.com/company/tiacoin/" target="_blank" className="text-[#706F74] font-medium">
                             <Image src="/linkgrey.svg" width={40} height={40} alt="linkedin-icon" /> 
 
 					        </Link>                    
