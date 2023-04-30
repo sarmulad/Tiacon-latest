@@ -77,7 +77,7 @@ const Team = ()=>{
                           image="member1.svg"
                           name="Rudr Rishi"
                           position="CEO & Founder"
-                          linkedin="#"
+                          linkedin="https://www.linkedin.com/in/rishi-rudr"
                         />
                     </SwiperSlide>
                     <SwiperSlide>
@@ -85,7 +85,7 @@ const Team = ()=>{
                         image="member2.svg"
                         name="Mark Warton"
                         position="CTO - treeclan"
-                        linkedin="#"
+                        linkedin="https://www.linkedin.com/in/markwarton"
                          />
                     </SwiperSlide>
                     <SwiperSlide>
@@ -93,7 +93,7 @@ const Team = ()=>{
                         image="member3.svg"
                         name="Servesh Gupta"
                         position="CTO - Tiasecure"
-                        linkedin="#"
+                        linkedin="https://www.linkedin.com/in/sarvesh-d-gupta-62409712/"
                          />
                     </SwiperSlide>
                     <SwiperSlide>
@@ -101,7 +101,7 @@ const Team = ()=>{
                         image="member4.svg"
                         name="Monika Podar"
                         position="CFO & cofounder"
-                        linkedin="#"
+                        linkedin="https://www.linkedin.com/in/monika-poddar-shetty-469b331b6"
                          />
                     </SwiperSlide>
 

@@ -15,11 +15,11 @@ const StakeCard = () => {
                <p className="text-[16.3px] font-[500] max-w-[80%] text-[#fff] md:text-[20px] leading-[22px]">-TIA</p>
             </div>
             <div className="total hover:bg-[#3C4667] mb-[20px] px-[24px] py-[18px] rounded-[20px]">
-              <h5 className="font-[500] text-[20px] text-[#B9B8BB] leading-[30px]  md:text-[20px] mb-[16px] ">Total Balance</h5>
+              <h5 className="font-[500] text-[20px] text-[#B9B8BB] leading-[30px]  md:text-[20px] mb-[16px] ">Total Staked Balance</h5>
                <p className="text-[16.3px] font-[500] max-w-[80%] text-[#fff] md:text-[20px] leading-[22px]">-TIA</p>
             </div>
             <div className="total hover:bg-[#3C4667] mb-[20px] px-[24px] py-[18px] rounded-[20px]">
-              <h5 className="font-[500] text-[20px] text-[#B9B8BB] leading-[30px]  md:text-[20px] mb-[16px] ">Total Balance</h5>
+              <h5 className="font-[500] text-[20px] text-[#B9B8BB] leading-[30px]  md:text-[20px] mb-[16px] ">Classic Reward Balance</h5>
                <p className="text-[16.3px] font-[500] max-w-[80%] text-[#fff] md:text-[20px] leading-[22px]">-TIA</p>
             </div>
         </div>
@@ -29,7 +29,7 @@ const StakeCard = () => {
 const StakeWallet = () => {
     return (
         <div className="flex flex-col items-center justify-center gap-5 md:gap-10">
-        <Image src='/connect.svg' width={168} height={45} alt="button-icon" className="md:w-[254px] md:h-[68px]"/>
+        <Image src='/connect.svg' width={168} height={45} alt="button-icon" className="md:w-[254px] md:h-[68px] cursor-pointer"/>
         <div className={`bg-[#1B223A] transition duration-150 ease-in hover:bg-[#1B223A] flex flex-col justify-start items-center  md:h-[232px] h-[auto]  md:w-[464px] p-[20px] rounded-[20px]`}>
         <Tabs>
         <TabList className="flex mb-[32px] bg-[#3C4667] items-center justify-center gap-4 w-[85vw] md:w-[396px] h-[42px]  md:h-[68px] rounded-[20px]">

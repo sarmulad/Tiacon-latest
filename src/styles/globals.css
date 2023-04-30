@@ -76,7 +76,15 @@ html{
 .btn-custom-color {
   background-color: var(--bg-color);
 }
-
+.btn-custom-color:hover{
+  -webkit-animation: text 75s linear infinite;
+  animation: text 75s linear infinite;
+  background-image: linear-gradient(to left,#fff,#74b0ff,#fff);
+      -webkit-background-clip: text;
+    background-clip: text;
+    color:transparent;
+    border: 1px solid #38DBFF;
+}
 .swiper {
   width: 100%;
   padding-top: 50px;

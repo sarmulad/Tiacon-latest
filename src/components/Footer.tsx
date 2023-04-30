@@ -53,18 +53,30 @@ const Footer = () => {
 						connect with us
 					</h4>
 					<div className="mt-[40px] flex gap-5">
-						<Image src="/fb.svg" alt="social-icon" height={32} width={32} />
-						<Image src="/twt.svg" alt="social-icon" height={32} width={32} />
-						<Image src="/tel.svg" alt="social-icon" height={32} width={32} />
-						<Image src="/ink.svg" alt="social-icon" height={32} width={32} />
-						<Image src="/yout.svg" alt="social-icon" height={32} width={32} />
+					<Link href="https://www.facebook.com/TIATOKEN" className="text-[#706F74] font-medium">
+					  <Image src="/fb.svg" alt="social-icon" height={32} width={32} />
+					</Link>
+					<Link href="https://twitter.com/TiaCoin" className="text-[#706F74] font-medium">
+					  <Image src="/twt.svg" alt="social-icon" height={32} width={32} />
+					</Link>
+					<Link href="https://t.me/realtiacoin" className="text-[#706F74] font-medium">
+					 <Image src="/tel.svg" alt="social-icon" height={32} width={32} />
+					</Link>
+					<Link href="https://www.linkedin.com/company/tiacoin/" className="text-[#706F74] font-medium">
+					  <Image src="/ink.svg" alt="social-icon" height={32} width={32} />
+					</Link>
+					<Link href="https://www.youtube.com/channel/UCtWS5o3vGdnT1aNgV6ZOVug" className="text-[#706F74] font-medium">
+					  <Image src="/yout.svg" alt="social-icon" height={32} width={32} />
+
+					</Link>						
+						
 					</div>
 				</div>
 				<div className="flex flex-col gap-4">
 					<h4 className="text-[20px] md:text-[24px] font-bold text-[#fff] md:mb-[22px]">
 						Company
 					</h4>
-					<Link href="#" className="text-[#706F74] font-medium">
+					<Link href="#project" className="text-[#706F74] font-medium">
 						Our Project
 					</Link>
 					<Link href="#" className="text-[#706F74] font-medium">
@@ -81,7 +93,7 @@ const Footer = () => {
 					<Link href="#" className="text-[#706F74] font-medium">
 						Whitepaper
 					</Link>
-					<Link href="#faq" className="text-[#706F74] font-medium">
+					<Link href="#Faq" className="text-[#706F74] font-medium">
 						Faq
 					</Link>
 					<Link href="#" className="text-[#706F74] font-medium">

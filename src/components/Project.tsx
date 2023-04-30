@@ -57,7 +57,7 @@ const ProjectItem: React.FC<ProjectItemsProp> = ({
 				</p>
 
 				<button
-					className={`w-[186px] h-[60px] mt-[56px]    flex text-center justify-center gap-2 rounded-[64px]  text-[#fff] text-[14px] font-[600] leading-[18px] px-[40px] py-[21px] btn-custom-color`}
+					className={`w-[186px] h-[60px] mt-[56px] hover:bg-transparent   flex text-center justify-center gap-2 rounded-[64px]  text-[#fff] text-[14px] font-[600] leading-[18px] px-[40px] py-[21px] btn-custom-color`}
 					style={{ '--bg-color': btnColor } as React.CSSProperties}
 				>
 					Learn More
