@@ -76,7 +76,7 @@ const ProjectItem: React.FC<ProjectItemsProp> = ({
 const Project = () => {
 	return (
 		<>
-			<div className="relative py-20 px-10 md:p-14 " id='project'>
+			<div className="relative py-5 px-5 md:py-20 md:px-10 md:p-14 " id='project'>
 				<div className='absolute top-0 left-0 h-full w-full bg-black/[.6]'></div>
 				<Video
 					source="/project.mp4"
