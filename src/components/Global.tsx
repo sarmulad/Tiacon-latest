@@ -30,12 +30,12 @@ const Global = () => {
 				<Video
 					source="/globalmobile.mp4"
 					className="covers block md:hidden"
-					fallbackImage="fallback.svg"
+					fallbackImage="mobileglobalfallback.svg"
 				/>
 		
 
 			<div className="flex flex-col items-center relative">
-				<h1 className="font-[500] text-[40px] md:text-[128px] text-start leading-[60px] mb-[32px]">
+				<h1 className="font-[500] text-[40px] md:text-[128px] text-start leading-[60px] mb-[10px] md:mb-[32px]">
 					TIA IS GLOBAL
 				</h1>
 				<p className="font-[500] text-[18px] md:text-[18px]  leading-[60px]">{activeCity}</p>
