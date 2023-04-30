@@ -83,7 +83,7 @@ const Project = () => {
 					fallbackImage="projectfallback.svg"
 					className="covers"
 				/>
-				<h1 className="relative font-bold text-[30px] md:text-[40px] text-center leading-[51px] mb-[64px]">
+				<h1 className="relative font-bold text-[30px] md:text-[40px] text-center leading-[51px] mb-[30px] md:mb-[64px]">
 					OUR PROJECTS
 				</h1>
 				<ArrowLeft className="hidden md:block swiper-arrow-left absolute top-[50%] translate-y-[-50%] left-[22px] cursor-pointer"/>

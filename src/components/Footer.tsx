@@ -67,7 +67,6 @@ const Footer = () => {
 					</Link>
 					<Link href="https://www.youtube.com/channel/UCtWS5o3vGdnT1aNgV6ZOVug" className="text-[#706F74] font-medium">
 					  <Image src="/yout.svg" alt="social-icon" height={32} width={32} />
-
 					</Link>						
 						
 					</div>
