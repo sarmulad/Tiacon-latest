@@ -19,7 +19,7 @@ const Global = () => {
 	}, 5000);
 
 	return (
-		<div className=" relative py-[107px] w-[100%] px-[35px] md:px-[50px] md:h-[100vh] flex flex-col items-center justify-center bg-black/[.7]">
+		<div className=" relative py-[107px] w-[100%] px-[35px] md:px-[50px] md:h-[100vh] flex flex-col items-center justify-center bg-black/[.6]">
 			
 				<Video
 					source="/global.mp4"

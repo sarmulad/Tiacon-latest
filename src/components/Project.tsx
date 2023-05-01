@@ -19,7 +19,7 @@ import {
 	Autoplay,
 } from 'swiper';
 
-import Tree from "../icons/tree.svg";
+import Tree from "../icons/treeclan.svg";
 import Tiasecure from "../icons/tiasecure.svg";
 import Tiaexchange from "../icons/tiaexchange.svg";
 import Tiamv from "../icons/tiamv.svg"

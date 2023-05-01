@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import { Inter } from 'next/font/google';
-import styles from '@/styles/Home.module.css';
+// import Image from 'next/image';
+// import { Inter } from 'next/font/google';
+// import styles from '@/styles/Home.module.css';
 import Features from '@/components/Features';
 import Revolution from '@/components/Revolution';
 import Landing from '@/components/Landing';
@@ -20,7 +20,7 @@ import Roadmap from '@/components/Roadmap';
 import Stake from '@/components/Stake';
 import Cookies from '@/components/Cookies';
 
-const inter = Inter({ subsets: ['latin'] });
+// const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
 	return (
@@ -28,8 +28,8 @@ export default function Home() {
 			<Head>
 				<title>Tiacon</title>
 				<meta
-					name="description"
-					content="exchange your payoneer for ngn and ghc at the speed of light."
+					name="Tiacoin"
+					content="The first blockchain project to seamlessly integrate social media, cybersecurity,metaverse and crypto exchange."
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />

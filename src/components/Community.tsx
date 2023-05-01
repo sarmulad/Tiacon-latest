@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Tiaicon from "../icons/tiaicon.svg"
 
 
 interface CommunityProps {

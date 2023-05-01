@@ -46,7 +46,7 @@ const DesktopNavbar = () => {
         <NavItem href="/#Features" label="Features" />
         <NavItem href="/Whitepaper" label="Whitepaper" />
         <NavItem href="/#Faq" label="Faq" />
-        <NavItem href="/#Contact" label="Contact Us" />
+        <NavItem href="https://Wa.me/61493687449" label="Contact Us" />
       </div>
       
       <div className="">
@@ -79,7 +79,7 @@ const MobileNav = () => {
                 <NavItem href="/#Features" label="Features" />
                 <NavItem href="/#Whitepaper" label="Whitepaper" />
                 <NavItem href="/#faq" label="Faq" />
-                <NavItem href="/#Contact" label="Contact us" />
+                <NavItem href="https://Wa.me/61493687449" label="Contact us" />
 
              </div>
              <div className="mt-[117px]">
@@ -103,15 +103,41 @@ const MobileNav = () => {
   </div>
   )
 }
+import { motion, AnimatePresence } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
+// ...
 
 const Navbar = () => {
-  return(
-    <div className="w-full max-w-[1272px]">
-      <DesktopNavbar />
-      <MobileNav />
-    </div>
-  )
-}
+  const { ref, inView } = useInView({ threshold: 0.5 });
 
+  return (
+    <AnimatePresence>
+      <motion.div
+        ref={ref}
+        initial={{ opacity: 0 }}
+        animate={inView ? { opacity: 1 } : { opacity: 0 }}
+        transition={{ duration: 1, staggerChildren: 0.2 }}
+        className="w-full max-w-[1272px]"
+      >
+          <DesktopNavbar />
+          <MobileNav />
+      </motion.div>
+    </AnimatePresence>
+  );
+};
 
 export default Navbar;
+
+
+// const Navbar = () => {
+//   return(
+//     <div className="w-full max-w-[1272px]">
+//       <DesktopNavbar />
+//       <MobileNav />
+//     </div>
+//   )
+// }
+
+
+// export default Navbar;

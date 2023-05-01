@@ -37,7 +37,7 @@ const GeneralSans = localFont({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className={GeneralSans.className} font-sans>
+    <div className={GeneralSans.className} font-sans="true">
       {/* <Navbar/> */}
       <Component {...pageProps} />
       <Footer/>

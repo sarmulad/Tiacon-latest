@@ -1,15 +1,1 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="24" cy="24" r="24" fill="url(#paint0_linear_145_825)"/>
-<path d="M36.8001 30.6C36.5334 32 35.4001 33.0667 34.0001 33.2667C31.8001 33.6 28.1334 34 24.0001 34C19.9334 34 16.2667 33.6 14.0001 33.2667C12.6001 33.0667 11.4667 32 11.2001 30.6C10.9334 29.0667 10.6667 26.8 10.6667 24C10.6667 21.2 10.9334 18.9333 11.2001 17.4C11.4667 16 12.6001 14.9333 14.0001 14.7333C16.2001 14.4 19.8667 14 24.0001 14C28.1334 14 31.7334 14.4 34.0001 14.7333C35.4001 14.9333 36.5334 16 36.8001 17.4C37.0667 18.9333 37.4001 21.2 37.4001 24C37.3334 26.8 37.0667 29.0667 36.8001 30.6Z" fill="url(#paint1_linear_145_825)"/>
-<path d="M21.3333 28.6663V19.333L29.3333 23.9997L21.3333 28.6663Z" fill="white"/>
-<defs>
-<linearGradient id="paint0_linear_145_825" x1="-3.23316" y1="10.5205" x2="58.3738" y2="32.8007" gradientUnits="userSpaceOnUse">
-<stop offset="0.00800497" stop-color="#38DBFF"/>
-<stop offset="1" stop-color="#243AFF"/>
-</linearGradient>
-<linearGradient id="paint1_linear_145_825" x1="8.86606" y1="18.3836" x2="40.3161" y2="33.5867" gradientUnits="userSpaceOnUse">
-<stop offset="0.00800497" stop-color="#38DBFF"/>
-<stop offset="1" stop-color="#243AFF"/>
-</linearGradient>
-</defs>
-</svg>
+<svg fill="none" height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a"><stop offset=".00800497" stop-color="#38dbff"/><stop offset="1" stop-color="#243aff"/></linearGradient><linearGradient id="b" gradientUnits="userSpaceOnUse" x1="-3.23316" x2="58.3738" xlink:href="#a" y1="10.5205" y2="32.8007"/><linearGradient id="c" gradientUnits="userSpaceOnUse" x1="8.86606" x2="40.3161" xlink:href="#a" y1="18.3836" y2="33.5867"/><circle cx="24" cy="24" fill="url(#b)" r="24"/><path d="m36.8001 30.6c-.2667 1.4-1.4 2.4667-2.8 2.6667-2.2.3333-5.8667.7333-10 .7333-4.0667 0-7.7334-.4-10-.7333-1.4-.2-2.5334-1.2667-2.8-2.6667-.2667-1.5333-.5334-3.8-.5334-6.6s.2667-5.0667.5334-6.6c.2666-1.4 1.4-2.4667 2.8-2.6667 2.2-.3333 5.8666-.7333 10-.7333 4.1333 0 7.7333.4 10 .7333 1.4.2 2.5333 1.2667 2.8 2.6667.2666 1.5333.6 3.8.6 6.6-.0667 2.8-.3334 5.0667-.6 6.6z" fill="url(#c)"/><path d="m21.3333 28.6663v-9.3333l8 4.6667z" fill="#fff"/></svg>

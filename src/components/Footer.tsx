@@ -78,7 +78,7 @@ const Footer = () => {
 					<Link href="#project" className="text-[#706F74] font-medium">
 						Our Project
 					</Link>
-					<Link href="#" className="text-[#706F74] font-medium">
+					<Link href="/Privacy" className="text-[#706F74] font-medium">
 						Privacy Policy
 					</Link>
 					<Link href="#" className="text-[#706F74] font-medium">
