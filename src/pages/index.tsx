@@ -6,7 +6,7 @@ import Features from '@/components/Features';
 import Revolution from '@/components/Revolution';
 import Landing from '@/components/Landing';
 import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
+// import Footer from '@/components/Footer';
 import FAQSection from '@/components/FAQ';
 import Project from '@/components/Project';
 import Stat from '@/components/Stat';

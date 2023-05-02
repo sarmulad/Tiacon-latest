@@ -1,13 +1,23 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Button from './Button';
-// import TiaIllustration from "../icons/tiaillustration.png"
+import { motion } from "framer-motion";
+
+import { Fade , imageAnimate, SectionFade} from "./Animation";
 
 const Revolution = () => {
 	return (
 		<div className="bg-[#0A1126] w-full pt-[40px] md:pt-[123px] pb-[123px] px-[35px] mt-[50px] md:mt-[0px] md:px-[0]">
-			<div className="md:flex md:flex-row flex flex-col-reverse md:max-w-[1240px] md:m-[auto] md:items-start gap-[32px] md:gap-[40px] md:px-[50px]">
-				<div className="md:flex items-start justify-between flex-col flex-1 ">
+			<motion.div 
+				className="md:flex md:flex-row flex flex-col-reverse md:max-w-[1240px] md:m-[auto] md:items-start gap-[32px] md:gap-[40px] md:px-[50px]"
+				initial={"offscreen"}
+				whileInView={"onscreen"}
+				viewport={{once:false, amount:0.2}}
+				transition={{staggerChildren:0.5}}
+			>
+				<motion.div 
+				    variants={SectionFade}
+				 	className="md:flex items-start justify-between flex-col flex-1"
+				>
 					<div className="w-1/1  flex flex-col py-[20px]">
 						<h4 className="font-bold text-[32px] border-gradient  md:text-[40px] leading-[29px] md:leading-[52px] text-left md:mt-[20px] mb-[32px] md:mb-[0px]">
 							Revolutionising the Crypto Trading Industry:
@@ -50,9 +60,11 @@ const Revolution = () => {
 							</Link>
 						</div>
 					</div>
-				</div>
+				</motion.div>
 
-				<div className="w-1/1 md:block flex-1 md:mt-20   ">
+				<motion.div 
+				variants={imageAnimate}
+				 className="w-1/1 md:block flex-1 md:mt-20   ">
 					<Image
 						src="/tiaillustration.png"
 						width={500}
@@ -60,8 +72,8 @@ const Revolution = () => {
 						alt="Revolution"
 						className="w-[90%] revolution-img"
 					/>
-				</div>
-			</div>
+				</motion.div>
+			</motion.div>
 		</div>
 	);
 };

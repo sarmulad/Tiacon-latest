@@ -1,6 +1,6 @@
+import { motion } from "framer-motion";
+import {SectionFade} from "./Animation";
 import Image from "next/image";
-import Link from "next/link";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/scrollbar";
@@ -38,7 +38,13 @@ const MemberCard:React.FC<MemberCardProps> = ({  image, name, position, linkedin
 
 const Team = ()=>{
     return(           
-        <div className='bg-[#0A0F20] relative pt-[40px] md:pt-[0px] pb-[123px] md:px-[35px] mt-[50px] flex flex-col items-center '>
+        <motion.div 
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{once:false, amount:0.1}}
+            transition={{staggerChildren:0.5}}
+            variants={SectionFade}
+          className='bg-[#0A0F20] relative pt-[40px] md:pt-[0px] pb-[123px] md:px-[35px] mt-[50px] flex flex-col items-center '>
             <h1 className="font-bold text-[48px] text-center leading-[51px] mb-[30px] md:pt-[80px]">The Team</h1>
             <ArrowLeft className=" md:block swiper-arrow-left absolute top-[60%]  md:top-[50%] translate-y-[-50%] left-[10%] md:left-[22%] z-10  cursor-pointer"/>
 			<ArrowRight className=" md:block swiper-arrow-right absolute top-[60%] md:top-[50%] translate-y-[-50%] right-[10%] z-10 md:right-[22%] cursor-pointer"/>
@@ -110,7 +116,7 @@ const Team = ()=>{
                 </div>
             </div>
                 
-        </div>
+        </motion.div>
     )
 }
 

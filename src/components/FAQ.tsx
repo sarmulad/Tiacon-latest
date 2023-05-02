@@ -1,5 +1,8 @@
 import {useState } from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
+import { SectionFade} from "./Animation";
+
 const FAQData = [
     {
       id: 1,
@@ -71,7 +74,13 @@ const FAQComponent:React.FC<FAQComponentProps> = ({ data }) => {
 
 const FAQSection = () => {
   return (
-    <section id="Faq" className="bg-[#0A0F20] faq w-full min-h-[530px] py-[70px] md:py-[90px] flex justify-center">
+    <motion.section 
+      initial={"offscreen"}
+      whileInView={"onscreen"}
+      viewport={{once:false, amount:0.1}}
+      transition={{staggerChildren:0.5}}
+      variants={SectionFade}
+      id="Faq" className="bg-[#0A0F20] faq w-full md:min-h-[530px] py-[70px] md:py-[90px] flex justify-center">
       <div className="px-[20px] md:px-0 w-full flex flex-col items-center justify-center md:max-w-[813px]">
           <header className="col-span-1 font-bold text-[24px] md:text-[48px] w-full text-center">
              Frequently Asked Questions
@@ -80,7 +89,7 @@ const FAQSection = () => {
             <FAQComponent data={FAQData} />
           </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

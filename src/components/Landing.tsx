@@ -72,10 +72,10 @@ const Landing = ()=>{
                             // width:"100%"
                          }}
                         className="flex  md:gap-3  justify-around items-center h-[82px] md:p-5 md:mt-[60px]  cursor-pointer">
-                            <Link href="https://www.facebook.com/TIATOKEN" target="_blank"  className="text-[#706F74] font-medium">
+                            <Link href="https://m.facebook.com/108226041732272/" target="_blank"  className="text-[#706F74] font-medium">
                             <Image src="/fbgrey.svg" width={40} height={40} alt="facebook-icon" />
 					        </Link>
-                            <Link href="https://twitter.com/TiaCoin"  target="_blank" className="text-[#706F74] font-medium">
+                            <Link href="https://twitter.com/TiaEcosystem?t=Pgz4apbcKgHVxciG0GQo0w&s=08"  target="_blank" className="text-[#706F74] font-medium">
 					        <Image src="/twtgrey.svg" width={40} height={40} alt="twitter-icon" />
 					        </Link>
                             <Link href="https://t.me/realtiacoin" target="_blank" className="text-[#706F74] font-medium">
@@ -84,10 +84,10 @@ const Landing = ()=>{
                             <Link href="https://www.youtube.com/channel/UCtWS5o3vGdnT1aNgV6ZOVug" target="_blank"  className="text-[#706F74] font-medium">
 					        <Image src="/youtgrey.svg" width={40} height={40} alt="youtube-icon" />
 					        </Link>
-                            <Link href="https://www.instagram.com/realtiacoin/?hl=en" target="_blank" className="text-[#706F74] font-medium">
+                            <Link href="https://instagram.com/tiaecosystem?igshid=YmMyMTA2M2Y=" target="_blank" className="text-[#706F74] font-medium">
 					        <Image src="/iggrey.svg" width={40} height={40} alt="instagram-icon" />
 					        </Link>
-                            <Link href="https://www.linkedin.com/company/tiacoin/" target="_blank" className="text-[#706F74] font-medium">
+                            <Link href="https://www.linkedin.com/mwlite/company/tiacoin" target="_blank" className="text-[#706F74] font-medium">
                             <Image src="/linkgrey.svg" width={40} height={40} alt="linkedin-icon" /> 
 
 					        </Link>                    

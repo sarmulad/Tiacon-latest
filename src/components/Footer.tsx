@@ -53,16 +53,16 @@ const Footer = () => {
 						connect with us
 					</h4>
 					<div className="mt-[40px] flex gap-5">
-					<Link href="https://www.facebook.com/TIATOKEN" className="text-[#706F74] font-medium">
+					<Link href="https://m.facebook.com/108226041732272/" className="text-[#706F74] font-medium">
 					  <Image src="/fb.svg" alt="social-icon" height={32} width={32} />
 					</Link>
-					<Link href="https://twitter.com/TiaCoin" className="text-[#706F74] font-medium">
+					<Link href="https://twitter.com/TiaEcosystem?t=Pgz4apbcKgHVxciG0GQo0w&s=08" className="text-[#706F74] font-medium">
 					  <Image src="/twt.svg" alt="social-icon" height={32} width={32} />
 					</Link>
 					<Link href="https://t.me/realtiacoin" className="text-[#706F74] font-medium">
 					 <Image src="/tel.svg" alt="social-icon" height={32} width={32} />
 					</Link>
-					<Link href="https://www.linkedin.com/company/tiacoin/" className="text-[#706F74] font-medium">
+					<Link href="https://www.linkedin.com/mwlite/company/tiacoin" className="text-[#706F74] font-medium">
 					  <Image src="/ink.svg" alt="social-icon" height={32} width={32} />
 					</Link>
 					<Link href="https://www.youtube.com/channel/UCtWS5o3vGdnT1aNgV6ZOVug" className="text-[#706F74] font-medium">
@@ -95,7 +95,7 @@ const Footer = () => {
 					<Link href="#Faq" className="text-[#706F74] font-medium">
 						Faq
 					</Link>
-					<Link href="#" className="text-[#706F74] font-medium">
+					<Link href="#tokenomics" className="text-[#706F74] font-medium">
 						Contract
 					</Link>
 				</div>
