@@ -5,7 +5,7 @@ const NewsLetter = ()=>{
             <div className="bg-[#0D1631] rounded-[48px] w-full md:max-w-[956px] h-[400px] md:max-h-[348px] p-5 md:p-14 flex flex-col justify-center items-center ">
                 <h4 className="text-[24px] mb-3 md:text-[48px] font-bold text-[#fff]">Sign Up for Newsletter</h4>
                 <p className="text-[12px] md:text-[16px] text-[#D9D9D9] font-medium text-center leading-[22px]">Stay up-to-date with Tia, subscribe to our newsletter</p>
-                <form className="mt-[40px] w-[95%] md:w-[80%]">
+                <form className="mt-[40px] w-[95%] md:w-[80%]" method="POST" data-netlify="true">
                     <div className="gradient-button p-[2px] h-[72px]  rounded-[64px] flex items-center">
                      <div className="relative rounded-[64px] flex bg-[#0D1631] w-full">
                         <input 
