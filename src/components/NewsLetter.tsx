@@ -10,6 +10,7 @@ const NewsLetter = ()=>{
                      <div className="relative rounded-[64px] flex bg-[#0D1631] w-full">
                         <input 
                         type="email" 
+                        name="email"
                         placeholder="Enter your email address"
                         className=" text-[16px] h-[71px] bg-[transparent] w-full focus:outline-none pl-10"
                          />
