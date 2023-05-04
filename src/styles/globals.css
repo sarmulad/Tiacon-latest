@@ -17,6 +17,9 @@ html{
 a:hover{
  opacity: 0.7;
 }
+input:hover, input:active, input:focus {
+  background-color: transparent;
+}
 
 .video-wrapper{
   width:100%;
