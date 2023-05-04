@@ -39,6 +39,15 @@ const NewsLetter = ()=>{
     
         setIsSubmitting(false);
       };
+
+      const isEmailValid = (email: string) => {
+        const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
+        return emailRegex.test(email);
+      };
+    
+      const isFormValid = () => {
+        return isEmailValid(formValues.email);
+      };
     
       const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         setFormValues({ ...formValues, [e.target.name]: e.target.value });
@@ -68,17 +77,18 @@ const NewsLetter = ()=>{
                         className=" text-[16px] h-[71px] bg-[transparent] w-full focus:outline-none pl-10"
                          />
                         <div className="absolute right-[12px] h-full flex items-center ">
-                        <button type='submit' disabled={isSubmitting} className="w-[120px] hidden md:flex  md:w-[179px] h-[48px] justify-center items-center rounded-[64px]  text-[#fff] text-[14px] font-normal leading-[18px] px-[30px] py-[21px] gradient-button">
+                        <button type='submit' disabled={isSubmitting || !isFormValid()} className="w-[120px] hidden md:flex  md:w-[179px] h-[48px] justify-center items-center rounded-[64px]  text-[#fff] text-[14px] font-normal leading-[18px] px-[30px] py-[21px] gradient-button">
                            {isSubmitted ? 'Subscribed' : isSubmitting ? 'Submitting...' : 'Subscribe'}
                         </button>
                         
                         </div>
                     </div>
                     </div>
-                    <button type='submit' disabled={isSubmitting} className="w-[100%] mt-[16px] md:hidden h-[56px] flex justify-center items-center rounded-[64px]  text-[#fff] text-[14px] font-normal leading-[18px] px-[30px] py-[21px] gradient-button">
+                    <button type='submit' disabled={isSubmitting || !isFormValid()} className="w-[100%] mt-[16px] md:hidden h-[56px] flex justify-center items-center rounded-[64px]  text-[#fff] text-[14px] font-normal leading-[18px] px-[30px] py-[21px] gradient-button">
                         {isSubmitted ? 'Thank you!' : isSubmitting ? 'Submitting...' : 'Submit'}
                     </button>
-                 
+                      {isSubmitted &&  <p className="text-[12px] md:text-[16px] text-[#D9D9D9]  mt-3 font-medium text-center leading-[22px]">Thank you for subsrcibing!!!</p>}
+
                </form>
             </div>
         </div>
