@@ -80,7 +80,7 @@ const FAQSection = () => {
       viewport={{once:false, amount:0.1}}
       transition={{staggerChildren:0.5}}
       variants={SectionFade}
-      id="Faq" className="bg-[#0A0F20] faq w-full md:min-h-[530px] py-[70px] md:py-[90px] flex justify-center">
+      id="Faq" className="bg-[#0A0F20] faq w-full md:min-h-[530px] py-[20px] md:py-[90px] flex justify-center">
       <div className="px-[20px] md:px-0 w-full flex flex-col items-center justify-center md:max-w-[813px]">
           <header className="col-span-1 font-bold text-[24px] md:text-[48px] w-full text-center">
              Frequently Asked Questions

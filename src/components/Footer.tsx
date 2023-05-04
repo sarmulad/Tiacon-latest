@@ -81,7 +81,7 @@ const Footer = () => {
 					<Link href="/Privacy" className="text-[#706F74] font-medium">
 						Privacy Policy
 					</Link>
-					<Link href="#" className="text-[#706F74] font-medium">
+					<Link href="https://Wa.me/61493687449" className="text-[#706F74] font-medium">
 						Contact Us
 					</Link>
 				</div>
@@ -95,7 +95,7 @@ const Footer = () => {
 					<Link href="#Faq" className="text-[#706F74] font-medium">
 						Faq
 					</Link>
-					<Link href="#tokenomics" className="text-[#706F74] font-medium">
+					<Link href="https://polygonscan.com/token/0x957e4f54129b75828e0bec11c9e409ea1862cff4" className="text-[#706F74] font-medium">
 						Contract
 					</Link>
 				</div>
@@ -105,10 +105,10 @@ const Footer = () => {
 					<p className="text-[#706F74] text-sans">
 						© copyright 2022 | All right reserved.
 					</p>
-					<div className="hidden lg:flex items-center space-x-4">
+					{/* <div className="hidden lg:flex items-center space-x-4">
 						<span className="text-[#706F74] text-sans">Powered by</span>
 						<Image src="/polygon.svg" alt="polygon" width={111} height={28} />
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</div>

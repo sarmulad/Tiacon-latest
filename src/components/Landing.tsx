@@ -9,7 +9,7 @@ import {Fade,} from "./Animation";
 
 
 const Landing = ()=>{
-    const videoId = '7qiJ-E88mbg';
+    const videoId = 'HZB0DG-mzCw';
     // const isMobile = useMediaQuery({ maxWidth: 768 });
 
     return(      
@@ -42,7 +42,7 @@ const Landing = ()=>{
                            className="text-[16px] md:text-[20px] font-medium max-w-[350px] md:w-[80%] text-left  md:my-[30px] leading-[20px] md:leading-[30px]">
                             The first blockchain project to seamlessly 
                             integrate social media, 
-                            cybersecurity,metaverse and crypto exchange.
+                            cybersecurity, metaverse and crypto exchange.
                         </motion.p>
                         <motion.div variants={Fade} className="flex justify-start mt-[32px] gap-7">
                             <Link href="/#Contact">

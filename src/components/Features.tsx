@@ -86,13 +86,13 @@ const Features = () => {
                     />
                     <FeatureCard 
                         icon = {<Rel/>}
-                        title="Reliable Exchange"
-                        content="Trust in TIA's exchange for fast and reliable trading of digital assets"
+                        title="Experience the Metaverse"
+                        content="Immerse yourself into the ultimate virtual world with TIAMV, a user-friendly space that combines all aspects of life in one place."
                     />
                     <FeatureCard 
                         icon = {<Love/>}
                         title="Connecting Lives"
-                        content="Enjoy bank-level security to protect your mobile device and digital assets."
+                        content="Create their own family tree, connect with relatives across generations, and enjoy a range of exciting features."
                     />
                 </div>
 

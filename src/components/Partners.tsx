@@ -13,17 +13,24 @@ const partnerData = [
         url:"lbank.svg"
     }, {
         id:4,
-        url:"coinstore.svg"
+        url:"coke.svg"
     }, {
         id:5,
         url:"house.svg"
-    }, {
+    }, 
+    {
         id:6,
+        url:"mirage.svg"
+    },
+
+    {
+        id:7,
         url:"kryptopro.svg"
     }, {
-        id:7,
+        id:8,
         url:"trend.svg"
     },
+    
 ]
 
 interface partnersComponentProps {
@@ -35,7 +42,7 @@ interface partnersComponentProps {
 
 const Partners = ()=>{
     const slide1 = partnerData.slice(0, 4)
-    const slide2 = partnerData.slice(4, 7)
+    const slide2 = partnerData.slice(4, 8)
 
     return(           
         <div className=' bg-[#0A1126] pt-[80px] md:pt-[0px] pb-[123px] px-[35px] mt-[50px] flex flex-col items-center '>

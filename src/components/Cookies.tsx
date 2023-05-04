@@ -19,7 +19,7 @@ const Cookies = () => {
 			<div className="flex items-center justify-between">
 				<p className="text-white font-medium text-[12px] leading-[16px] max-w-[259px] lg:max-w-[593px]">
 					We use tasty cookies to personalize your site experience and analyze
-					site traffic. Learn More
+					site traffic.  <span className='underline'><a href="/Privacy " >Learn More</a></span> 
 				</p>
 				<button className="flex-shrink-0 lg:hidden" onClick={hide}>
 					<Image src={'/exit.svg'} height={30} width={30} alt="exit" />
