@@ -78,6 +78,9 @@ const Landing = ()=>{
                             <Link href="https://twitter.com/TiaEcosystem?t=Pgz4apbcKgHVxciG0GQo0w&s=08"  target="_blank" className="text-[#706F74] font-medium">
 					        <Image src="/twtgrey.svg" width={40} height={40} alt="twitter-icon" />
 					        </Link>
+                            <Link href="#"  target="_blank" className="text-[#706F74] font-medium">
+					        <Image src="/disc.svg" width={40} height={40} alt="twitter-icon" />
+					        </Link>
                             <Link href="https://t.me/realtiacoin" target="_blank" className="text-[#706F74] font-medium">
 					        <Image src="/telgrey.svg" width={40} height={40} alt="telegram-icon" />
 					        </Link>
