@@ -69,7 +69,7 @@ const MobileNav = () => {
           <>
             <div className=" flex justify-between mb-[38px] items-center">
             <Link href="/">
-            <Image alt="menu" className="inline" src="/tialogo.svg" width={97.6} height={33.2} unoptimized={true}/>
+            <Image alt="menu" className="inline" src="/tialogo.svg" width={97.6} height={33.2} unoptimized={true} quality={100}/>
             </Link>
 
               <Image alt="close" className="inline" src="/close.svg" width={30} height={30} unoptimized={true} onClick={()=>setMobileNavIsOpen(!mobileNavIsOpen)}/>
