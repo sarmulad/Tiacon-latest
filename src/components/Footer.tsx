@@ -43,8 +43,8 @@ const Footer = () => {
 			<div className="flex flex-col md:flex-row justify-between w-full max-w-[1000px] gap-10">
 				<div className="mt-[56px] md:mt-[0px] ">
 					<Image
-						src="/tialogo.svg"
-						alt="email"
+						src="/tialogo.webp"
+						alt="logo"
 						height={95}
 						width={166}
 						className="mb-[32px] md:mb-[22px]"

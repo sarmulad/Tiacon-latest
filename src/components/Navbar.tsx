@@ -39,7 +39,7 @@ const DesktopNavbar = () => {
   return (
     <div className="hidden justify-between py-[43px] max-w-[1240px] items-center  md:flex px-[50px]">
       <Link href="/">
-      <Image alt="menu" className="inline" src="/tialogo.svg" width={158.6} height={53.95}/>
+      <Image alt="logo" className="inline" src="/tialogo.webp" width={158.6} height={53.95}/>
       </Link>
       <div className="flex gap-x-[48px] text-[16px] text-white font-[600]">
         <NavItem href="/" label="Home" />
@@ -69,7 +69,7 @@ const MobileNav = () => {
           <>
             <div className=" flex justify-between mb-[38px] items-center">
             <Link href="/">
-            <Image alt="menu" className="inline" src="/tialogo.svg" width={97.6} height={33.2} unoptimized={true} quality={100}/>
+            <Image alt="menu" className="inline" src="/tialogo.webp" width={97.6} height={33.2} unoptimized={true} quality={100}/>
             </Link>
 
               <Image alt="close" className="inline" src="/close.svg" width={30} height={30} unoptimized={true} onClick={()=>setMobileNavIsOpen(!mobileNavIsOpen)}/>
@@ -93,7 +93,7 @@ const MobileNav = () => {
         ) : (
           <div className="flex justify-between items-center max-h-[64px]">
               <Link href="/">
-              <Image alt="logo" className="inline" src="/tialogo.svg" width={158.6} height={53.95} unoptimized={true} quality={100}/>
+              <Image alt="logo" className="inline" src="/tialogo.webp" width={97.6} height={33.2} unoptimized={true} quality={100}/>
               </Link>
             <Image alt="menu" className="inline" src="/menu.svg" width={30} height={30}  onClick={()=>setMobileNavIsOpen(!mobileNavIsOpen)}/>
           </div>        

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import {SectionFade} from "./Animation";
-// import Image from "next/image";
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/scrollbar";
@@ -24,11 +24,11 @@ interface MemberCardProps {
 const MemberCard:React.FC<MemberCardProps> = ({  image, name, position, linkedin}) => {
     return (
         <div className={` w-1/1  p-[40px] flex flex-col items-center`}>
-            <img src={`/${image}`} alt="member-image" height={220} width={220}/>
+            <Image quality={100} src={`/${image}`} alt="member-image" height={220} width={220}/>
             <h4 className="font-bold text-[20px]  mt-[10px]">{name}</h4>
             <p className="text-[14px] md:text-[16px] leading-[22px] text-[#706F74]">{position}</p>
             <a href={`${linkedin}`}>
-              <img src="linkedin.svg" alt="member-image" height={30} width={30}/>  
+              <Image quality={100} src="linkedin.svg" alt="member-image" height={30} width={30}/>  
             </a>
                             
         </div>
@@ -80,7 +80,7 @@ const Team = ()=>{
                     >
                     <SwiperSlide>
                       <MemberCard
-                          image="member1.svg"
+                          image="member1.webp"
                           name="Rudr Rishi"
                           position="CEO & Founder"
                           linkedin="https://www.linkedin.com/in/rishi-rudr"
@@ -88,7 +88,7 @@ const Team = ()=>{
                     </SwiperSlide>
                     <SwiperSlide>
                       <MemberCard
-                        image="member2.svg"
+                        image="member2.webp"
                         name="Mark Warton"
                         position="CTO - treeclan"
                         linkedin="https://www.linkedin.com/in/markwarton"
@@ -96,7 +96,7 @@ const Team = ()=>{
                     </SwiperSlide>
                     <SwiperSlide>
                       <MemberCard
-                        image="member3.svg"
+                        image="member3.webp"
                         name="Servesh Gupta"
                         position="CTO - Tiasecure"
                         linkedin="https://www.linkedin.com/in/sarvesh-d-gupta-62409712/"
@@ -104,7 +104,7 @@ const Team = ()=>{
                     </SwiperSlide>
                     <SwiperSlide>
                       <MemberCard
-                        image="member4.svg"
+                        image="member4.webp"
                         name="Monika Podar"
                         position="CFO & cofounder"
                         linkedin="https://www.linkedin.com/in/monika-poddar-shetty-469b331b6"
