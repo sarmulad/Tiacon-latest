@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
-// import img from "next/img";
-
+import Image from "next/image";
+// import Image from 'react-optimized-image'
 
 
 interface NavItemsProps {
@@ -39,7 +39,7 @@ const DesktopNavbar = () => {
   return (
     <div className="hidden justify-between py-[43px] max-w-[1240px] items-center  md:flex px-[50px]">
       <Link href="/">
-      <img alt="menu" className="inline" src="/tialogo.svg" width={158.6} height={53.95}/>
+      <Image alt="menu" className="inline" src="/tialogo.svg" width={158.6} height={53.95}/>
       </Link>
       <div className="flex gap-x-[48px] text-[16px] text-white font-[600]">
         <NavItem href="/" label="Home" />
@@ -69,10 +69,10 @@ const MobileNav = () => {
           <>
             <div className=" flex justify-between mb-[38px] items-center">
             <Link href="/">
-            <img alt="menu" className="inline" src="/tialogo.svg" width={97.6} height={33.2}/>
+            <Image alt="menu" className="inline" src="/tialogo.svg" width={97.6} height={33.2} unoptimized={true}/>
             </Link>
 
-              <img alt="close" className="inline" src="/close.svg" width={30} height={30} onClick={()=>setMobileNavIsOpen(!mobileNavIsOpen)}/>
+              <Image alt="close" className="inline" src="/close.svg" width={30} height={30} unoptimized={true} onClick={()=>setMobileNavIsOpen(!mobileNavIsOpen)}/>
             </div>
              <div className="flex flex-col gap-[48px]">
                 <NavItem href="/" label="Home" />
@@ -93,9 +93,9 @@ const MobileNav = () => {
         ) : (
           <div className="flex justify-between items-center max-h-[64px]">
               <Link href="/">
-              <img alt="menu" className="inline" src="/tialogo.svg" width={97.6} height={33.2}/>
+              <Image alt="menu" className="inline" src="/tialogo.svg" width={97.6} height={33.2} unoptimized={true}/>
               </Link>
-            <img alt="menu" className="inline" src="/menu.svg" width={30} height={30} onClick={()=>setMobileNavIsOpen(!mobileNavIsOpen)}/>
+            <Image alt="menu" className="inline" src="/menu.svg" width={30} height={30} unoptimized={true} onClick={()=>setMobileNavIsOpen(!mobileNavIsOpen)}/>
           </div>        
         )
       }
