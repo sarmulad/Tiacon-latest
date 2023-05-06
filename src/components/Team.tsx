@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import {SectionFade} from "./Animation";
-import Image from "next/image";
+// import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/scrollbar";
@@ -24,11 +24,11 @@ interface MemberCardProps {
 const MemberCard:React.FC<MemberCardProps> = ({  image, name, position, linkedin}) => {
     return (
         <div className={` w-1/1  p-[40px] flex flex-col items-center`}>
-            <Image src={`/${image}`} alt="member-image" height={220} width={220}/>
+            <img src={`/${image}`} alt="member-image" height={220} width={220}/>
             <h4 className="font-bold text-[20px]  mt-[10px]">{name}</h4>
             <p className="text-[14px] md:text-[16px] leading-[22px] text-[#706F74]">{position}</p>
             <a href={`${linkedin}`}>
-              <Image src="linkedin.svg" alt="member-image" height={30} width={30}/>  
+              <img src="linkedin.svg" alt="member-image" height={30} width={30}/>  
             </a>
                             
         </div>
@@ -56,6 +56,7 @@ const Team = ()=>{
                     centeredSlides={false}
                     slidesPerGroupSkip={1}
                     grabCursor={true}
+                    loop={true}
                     autoplay={{
 						delay: 2500,
 						disableOnInteraction: true,

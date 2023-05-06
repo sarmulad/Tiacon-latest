@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
-import Image from "next/image";
+// import img from "next/img";
 
 
 
@@ -39,7 +39,7 @@ const DesktopNavbar = () => {
   return (
     <div className="hidden justify-between py-[43px] max-w-[1240px] items-center  md:flex px-[50px]">
       <Link href="/">
-      <Image alt="menu" className="inline" src="/tialogo.svg" width={158.6} height={53.95}/>
+      <img alt="menu" className="inline" src="/tialogo.svg" width={158.6} height={53.95}/>
       </Link>
       <div className="flex gap-x-[48px] text-[16px] text-white font-[600]">
         <NavItem href="/" label="Home" />
@@ -69,16 +69,16 @@ const MobileNav = () => {
           <>
             <div className=" flex justify-between mb-[38px] items-center">
             <Link href="/">
-            <Image alt="menu" className="inline" src="/tialogo.svg" width={97.6} height={33.2}/>
+            <img alt="menu" className="inline" src="/tialogo.svg" width={97.6} height={33.2}/>
             </Link>
 
-              <Image alt="close" className="inline" src="/close.svg" width={30} height={30} onClick={()=>setMobileNavIsOpen(!mobileNavIsOpen)}/>
+              <img alt="close" className="inline" src="/close.svg" width={30} height={30} onClick={()=>setMobileNavIsOpen(!mobileNavIsOpen)}/>
             </div>
              <div className="flex flex-col gap-[48px]">
                 <NavItem href="/" label="Home" />
                 <NavItem href="/#Features" label="Features" />
-                <NavItem href="/#Whitepaper" label="Whitepaper" />
-                <NavItem href="/#faq" label="Faq" />
+                <NavItem href="/#" label="Whitepaper" />
+                <NavItem href="/#Faq" label="Faq" />
                 <NavItem href="https://Wa.me/61493687449" label="Contact us" />
 
              </div>
@@ -93,9 +93,9 @@ const MobileNav = () => {
         ) : (
           <div className="flex justify-between items-center max-h-[64px]">
               <Link href="/">
-              <Image alt="menu" className="inline" src="/tialogo.svg" width={97.6} height={33.2}/>
+              <img alt="menu" className="inline" src="/tialogo.svg" width={97.6} height={33.2}/>
               </Link>
-            <Image alt="menu" className="inline" src="/menu.svg" width={30} height={30} onClick={()=>setMobileNavIsOpen(!mobileNavIsOpen)}/>
+            <img alt="menu" className="inline" src="/menu.svg" width={30} height={30} onClick={()=>setMobileNavIsOpen(!mobileNavIsOpen)}/>
           </div>        
         )
       }

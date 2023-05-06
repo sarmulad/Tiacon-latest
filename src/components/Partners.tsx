@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import img from "next/img";
 
 const partnerData = [
     {
@@ -49,12 +49,12 @@ const Partners = ()=>{
             <h1 className="font-bold text-[48px] text-center leading-[51px] mb-[30px] md:pt-[80px]">Our Partners</h1>
             <div className='max-w-[1300px] m-auto flex  justify-center gap-5 md:items-center '>
                {slide1.map(({url, id})=>
-                 <Image key={id} src={`/${url}`} alt="icons" height={80} width={200} className="w-[76px] md:w-[200px]"/>
+                 <img key={id} src={`/${url}`} alt="icons" height={80} width={200} className="w-[76px] md:w-[200px]"/>
                )}
             </div>
             <div className='max-w-[1300px] m-auto flex  justify-center gap-5 md:items-center '>
                {slide2.map(({url, id})=>
-                 <Image key={id} src={`/${url}`} alt="icons" height={80} width={200} className="w-[76px] md:w-[200px]"/>
+                 <img key={id} src={`/${url}`} alt="icons" height={80} width={200} className="w-[76px] md:w-[200px]"/>
                )}
             </div>
                 

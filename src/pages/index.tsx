@@ -8,7 +8,7 @@ import Landing from '@/components/Landing';
 import Navbar from '@/components/Navbar';
 // import Footer from '@/components/Footer';
 import FAQSection from '@/components/FAQ';
-import Project from '@/components/Project';
+import Project from '../components/Project';
 import Stat from '@/components/Stat';
 import Tokenomics from '@/components/Tokenomics';
 import Team from '@/components/Team';
@@ -26,7 +26,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Tiacon</title>
+				<title>Tiacoin</title>
 				<meta
 					name="Tiacoin"
 					content="The first blockchain project to seamlessly integrate social media, cybersecurity,metaverse and crypto exchange."

@@ -56,7 +56,7 @@ const FAQComponent:React.FC<FAQComponentProps> = ({ data }) => {
               <header className="text-[16px] md:text-[16px] text-[#000] font-medium ">
                 {faq.title}
               </header>
-               {open ? <Image src="/minus.svg" alt="email" height={25} width={25}/> :  <Image src="/plus.svg" alt="email" height={25} width={25}/>}
+               {open !== faq.id && "hidden" ? <Image src="/plus.svg" alt="email" height={25} width={25}/> :  <Image src="/minus.svg" alt="email" height={25} width={25}/>}
             
             </div>
             <p

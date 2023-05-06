@@ -19,9 +19,9 @@ const Global = () => {
 	}, 5000);
 
 	return (
-		<div className=" relative py-[107px] w-[100%] px-[35px] md:px-[50px] md:h-[100vh] flex flex-col items-center justify-center bg-black/[.6]">
+		<div className=" relative py-[107px] w-[100%] px-[35px] md:px-[50px] md:h-[100vh] flex flex-col items-center justify-center">
 			
-				<Video
+				{/* <Video
 					source="/global.mp4"
 					className="covers hidden md:block"
 					fallbackImage="globalfallback.svg"
@@ -31,7 +31,7 @@ const Global = () => {
 					source="/globalmobile.mp4"
 					className="covers block md:hidden"
 					fallbackImage="mobileglobalfallback.svg"
-				/>
+				/> */}
 		
 
 			<div className="flex flex-col items-center relative">

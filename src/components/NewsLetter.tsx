@@ -87,7 +87,7 @@ const NewsLetter = ()=>{
                     <button type='submit' disabled={isSubmitting || !isFormValid()} className="w-[100%] mt-[16px] md:hidden h-[56px] flex justify-center items-center rounded-[64px]  text-[#fff] text-[14px] font-normal leading-[18px] px-[30px] py-[21px] gradient-button">
                         {isSubmitted ? 'Thank you!' : isSubmitting ? 'Submitting...' : 'Submit'}
                     </button>
-                      {isSubmitted &&  <p className="text-[12px] md:text-[16px] text-[#D9D9D9]  mt-3 font-medium text-center leading-[22px]">Thank you for subsrcibing!!!</p>}
+                      {isSubmitted &&  <p className="text-[12px] md:text-[16px] text-[#D9D9D9]  mt-3 font-medium text-center leading-[22px]">Thank you for subscribing!!!</p>}
 
                </form>
             </div>
