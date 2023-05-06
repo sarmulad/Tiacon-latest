@@ -52,7 +52,7 @@ const ProjectItem: React.FC<ProjectItemsProp> = ({
 				className="rounded-13px md:px-30px  h-full bg-custom-color"
 				style={{ '--bg-color': bgColor } as React.CSSProperties}
 			>
-               <Image quality={100} src={`/${icon}`} alt="member-image" height={40} width={140}/>
+               <Image quality={100} src={`/${icon}`} alt="member-image" height={80} width={160} className='w-[auto] h-[auto] mb-[20px]'/>
 				  
 				<p className="text-[14px] md:text-[16px] font-[500] leading-[22px]">
 					{content}
@@ -60,7 +60,7 @@ const ProjectItem: React.FC<ProjectItemsProp> = ({
 				<p className="text-[14px] mt-[30px] md:text-[16px] font-[500] leading-[22px]">
 					{SubContent}
 				</p>
-               <a href={link} target='_blank'>
+               <a href={link} target='_blank' title="link to other projects website">
 				<button
 					className={`w-[186px] h-[60px] mt-[56px] hover:bg-transparent   flex text-center justify-center gap-2 rounded-[64px]  text-[#fff] text-[14px] font-[600] leading-[18px] px-[40px] py-[21px] btn-custom-color`}
 					style={{ '--bg-color': btnColor } as React.CSSProperties}
@@ -135,7 +135,7 @@ const Project = () => {
 				>
 					<SwiperSlide>
 						<ProjectItem
-							icon="tiasecure.webp"
+							icon="tiasecure.svg"
 							bgColor="#16242F"
 							btnColor="#00C8CB"
 							content="TiaSecure project provides comprehensive cyber security protection for all digital assets and personal devices. It safeguards against various cyber threats, including ransomware, spyware, and virus attacks. TiaSecure also ensures online banking, shopping security, protects children online, manages passwords, provides Dark Web Monitoring to prevent identity theft and offers a secure VPN and quick audit reports for smart contracts. It is the ultimate solution for all cyber security needs."

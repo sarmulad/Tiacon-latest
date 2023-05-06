@@ -1,5 +1,5 @@
-// import Image from "next/image"
-import Tiaicon from "../icons/tiaicon.svg"
+import Image from "next/image"
+// import Tiaicon from "../icons/tiaicon.svg"
 
 
 interface CommunityProps {
@@ -78,12 +78,12 @@ const CommunityCard: React.FC<CommunityProps> = ({ content }) => {
     return (
       <div className={`CommunityCard bg-[#fff]   text-[#000] hover:text-[#fff] flex flex-col justify-start w-1/1 border-[0.2px] border-[#f1f1f1] md:w-[331px] rounded-[24px] min-w-[320px] py-6 md:py-8 px-6 md:px-8`}>
         <div className="flex justify-between gap-5">
-          <img src="tiaicon.svg" alt="tia-icon" height={63} width={63} />
+          <Image src="tiaicon.svg" alt="tia-icon" height={63} width={63} />
           <div>
             <h4 className="font-[600]">Tia Ecosystem</h4>
             <p className="">@TiaEcosystem</p>
           </div>
-          <img src="twticon.svg" alt="tia-icon" height={63} width={63} />
+          <Image src="twticon.svg" alt="tia-icon" height={63} width={63} />
         </div>
         <p className="text-[14px] font-[500] mt-6 md:text-[18px] leading-[24px] flex-grow">{content}</p>
       </div>
