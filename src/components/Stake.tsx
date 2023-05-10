@@ -9,17 +9,17 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 const StakeCard = () => {
     return (
         <div className={`bg-[#1B223A] transition duration-150 ease-in hover:bg-[#1B223A] flex flex-col justify-start  h-[auto] w-[90%] md:w-[464px] p-[20px] rounded-[20px]`}>
-            <h4 className="font-[400] text-[20px] md:text-[24px] mb-[42px] mt-[20px]  ml-[50px] underline">Connect Wallet</h4>
+            <h2 className="font-[400] text-[20px] md:text-[24px] mb-[42px] mt-[20px]  ml-[50px] underline">Connect Wallet</h2>
             <div className="total hover:bg-[#3C4667] mb-[20px] px-[24px] py-[18px] rounded-[20px]">
-              <h5 className="font-[500] text-[20px] text-[#B9B8BB] leading-[30px]  md:text-[20px] mb-[16px] ">Total Balance</h5>
+              <h3 className="font-[500] text-[20px] text-[#B9B8BB] leading-[30px]  md:text-[20px] mb-[16px] ">Total Balance</h3>
                <p className="text-[16.3px] font-[500] max-w-[80%] text-[#fff] md:text-[20px] leading-[22px]">-TIA</p>
             </div>
             <div className="total hover:bg-[#3C4667] mb-[20px] px-[24px] py-[18px] rounded-[20px]">
-              <h5 className="font-[500] text-[20px] text-[#B9B8BB] leading-[30px]  md:text-[20px] mb-[16px] ">Total Staked Balance</h5>
+              <h3 className="font-[500] text-[20px] text-[#B9B8BB] leading-[30px]  md:text-[20px] mb-[16px] ">Total Staked Balance</h3>
                <p className="text-[16.3px] font-[500] max-w-[80%] text-[#fff] md:text-[20px] leading-[22px]">-TIA</p>
             </div>
             <div className="total hover:bg-[#3C4667] mb-[20px] px-[24px] py-[18px] rounded-[20px]">
-              <h5 className="font-[500] text-[20px] text-[#B9B8BB] leading-[30px]  md:text-[20px] mb-[16px] ">Classic Reward Balance</h5>
+              <h3 className="font-[500] text-[20px] text-[#B9B8BB] leading-[30px]  md:text-[20px] mb-[16px] ">Classic Reward Balance</h3>
                <p className="text-[16.3px] font-[500] max-w-[80%] text-[#fff] md:text-[20px] leading-[22px]">-TIA</p>
             </div>
         </div>

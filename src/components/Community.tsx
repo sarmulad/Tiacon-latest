@@ -15,7 +15,9 @@ const Community = () => {
   return (
     <div className="bg-[#0D1631] py-[107px] px-[35px] md:px-[50px] w-full ">
       <div className="m-auto">
-        <h1 className="font-bold text-[24px] md:text-[40px] text-center leading-[30px] md:leading-[60px] mb-[64px] md:mb-[80px]  ">
+        <h1 
+          className="font-bold text-[24px] md:text-[40px] 
+          text-center leading-[30px] md:leading-[60px] mb-[64px] md:mb-[80px]  ">
           CONNECT WITH US
         </h1>
         <div className="md:w-[50%] m-auto">

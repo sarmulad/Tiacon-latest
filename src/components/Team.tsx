@@ -33,7 +33,7 @@ const MemberCard:React.FC<MemberCardProps> = ({  Member, name, position, linkedi
     return (
         <div className={` w-1/1  p-[40px] flex flex-col items-center`}>
              <Image src={Member} alt="member-Member" height={220} width={220}/>
-            <h4 className="font-bold text-[20px]  mt-[10px]">{name}</h4>
+            <h2 className="font-bold text-[20px]  mt-[10px]">{name}</h2>
             <p className="text-[14px] md:text-[16px] leading-[22px] text-[#706F74]">{position}</p>
             <a href={`${linkedin}`}>
               <Image quality={80} src="linkedin.svg" alt="image-linkedin" height={30} width={30}/>  

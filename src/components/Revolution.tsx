@@ -16,14 +16,14 @@ const Revolution = () => {
 				 	className="md:flex items-start justify-between flex-col flex-1"
 				>
 					<div className="w-1/1  flex flex-col py-[20px]">
-						<h4 
+						<h2
 						className="font-bold text-[32px] border-gradient 
 						 md:text-[40px] leading-[29px] md:leading-[52px] 
 						 text-left md:mt-[20px] mb-[32px] md:mb-[0px]">
 							Revolutionising the Crypto Trading Industry:
 							<br />{' '}
 							<span className="gradient-text">TIA is a Game-Changer</span>
-						</h4>
+						</h2>
 						<p 
 						className="text-[15px] md:text-[18px] font-medium w-[100%] text-[#706F74] 
 						md:w-[100%] text-left my-[0px] mb-[53px] md:mb-[0px md:my-[30px]  leading-[22px]">
@@ -36,14 +36,14 @@ const Revolution = () => {
 						</p>
 					</div>
 					<div className="w-1/1  flex flex-col py-[20px] ">
-						<h4 className="font-bold text-[32px] border-gradient md:text-[40px] 
+						<h2 className="font-bold text-[32px] border-gradient md:text-[40px] 
 						  leading-[30px] md:leading-[52px] text-left md:mt-[20px] mb-[32px] md:mb-[0px]">
 							<span className="gradient-text">Building</span> the Future of the
 							Digital World with <span className="gradient-text">TIA</span>
-						</h4>
+						</h2>
 						<p 
 						 className="text-[15px] md:text-[18px] font-medium w-[100%] text-[#706F74] 
-						 md:w-[100%] text-left my-[0px] md:my-[30px] ] leading-[22px]">
+						 md:w-[100%] text-left my-[0px] md:my-[30px] leading-[22px]">
 							TIA is a comprehensive network with a blockchain ledger, on-chain
 							applications, and services that serve as a bridge between the
 							physical and digital worlds. TIAs innovative platform paves the
