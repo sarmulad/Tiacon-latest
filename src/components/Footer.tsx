@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Social from './Social';
 
 // const SocialIcon = [
 //     {
@@ -52,30 +53,7 @@ const Footer = () => {
 					<h4 className="text-[20px] md:text-[24px] font-medium text-[#fff] leading-[30px]">
 						connect with us
 					</h4>
-					<div className="mt-[40px] flex gap-5">
-					<Link href="https://m.facebook.com/108226041732272/" className="text-[#706F74] font-medium">
-					  <Image src="/fb.svg" alt="social-icon" height={32} width={32} />
-					</Link>
-					<Link href="https://twitter.com/TiaEcosystem?t=Pgz4apbcKgHVxciG0GQo0w&s=08" className="text-[#706F74] font-medium">
-					  <Image src="/twt.svg" alt="social-icon" height={32} width={32} />
-					</Link>
-					<Link href="https://t.me/realtiacoin" className="text-[#706F74] font-medium">
-					 <Image src="/tel.svg" alt="social-icon" height={32} width={32} />
-					</Link>
-					<Link href="https://www.linkedin.com/mwlite/company/tiacoin" className="text-[#706F74] font-medium">
-					  <Image src="/ink.svg" alt="social-icon" height={32} width={32} />
-					</Link>
-					<Link href="https://instagram.com/tiaecosystem?igshid=YmMyMTA2M2Y=" target="_blank" className="text-[#706F74] font-medium">
-					    <Image src="/ig.svg" width={40} height={40} alt="instagram-icon" />
-					 </Link>
-					<Link href="https://www.youtube.com/channel/UCtWS5o3vGdnT1aNgV6ZOVug" className="text-[#706F74] font-medium">
-					  <Image src="/yout.svg" alt="social-icon" height={32} width={32} />
-					</Link>		
-					<Link href="https://discord.gg/jDp5eztF"  target="_blank" className="text-[#706F74] font-medium">
-					    <Image src="/disc.svg" width={40} height={40} alt="twitter-icon" />
-					</Link>				
-						
-					</div>
+					<Social/>
 				</div>
 				<div className="flex flex-col gap-4">
 					<h4 className="text-[20px] md:text-[24px] font-bold text-[#fff] md:mb-[22px]">

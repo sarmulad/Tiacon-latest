@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Tia from "../icons/tiaillustration.png"
 
 
 const Revolution = () => {
@@ -57,12 +58,11 @@ const Revolution = () => {
 
 				<div 
 				 className="w-1/1 md:block flex-1 md:mt-20   ">
-					<Image
-						src="/tiaillustration.png"
-						width={500}
-						height={500}
-						alt="Revolution"
-						className="w-[90%] revolution-img"
+					<Image src={Tia} 
+					 width={500}
+					 height={500}
+					 className="w-[90%] revolution-img"
+					 alt="Tia image" 
 					/>
 				</div>
 			</div>

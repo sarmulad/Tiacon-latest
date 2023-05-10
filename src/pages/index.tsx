@@ -12,7 +12,7 @@ import Project from '../components/Project';
 import Stat from '@/components/Stat';
 import Tokenomics from '@/components/Tokenomics';
 import Team from '@/components/Team';
-import Partners from '@/components/Partners';
+import Partners from '../components/Partners';
 import Community from '@/components/Community';
 import NewsLetter from '@/components/NewsLetter';
 import Global from '@/components/Global';

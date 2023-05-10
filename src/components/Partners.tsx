@@ -1,5 +1,16 @@
 import Image from "next/image"
 
+// import Icon1 from "../icons/polygon.svg"
+// import Icon2 from "../icons/creed.svg"
+// import Icon3 from "../icons/lbank.svg"
+// import Icon4 from "../icons/coke.svg"
+// import Icon5 from "../icons/house.svg"
+// import Icon6 from "../icons/mirage.svg"
+// import Icon7 from "../icons/kryptopro.svg"
+// import Icon8 from "../icons/trend.svg"
+
+
+
 const partnerData = [
     {
         id:1,
@@ -33,9 +44,9 @@ const partnerData = [
     
 ]
 
-interface partnersComponentProps {
-    data:any,
-}
+// interface partnersComponentProps {
+//     data:any,
+// }
 
 
  

@@ -18,6 +18,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/TokenomicsChart.jsx", "src/components/TokenomicsChart.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/TokenomicsChart.jsx", "src/components/TokenomicsChart.jsx", "src/components/Partners.tsx"],
   "exclude": ["node_modules"]
 }

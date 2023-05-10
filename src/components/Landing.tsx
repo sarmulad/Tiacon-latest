@@ -4,7 +4,12 @@ import TypingText from "./TypingText";
 import { motion } from "framer-motion";
 import {Fade,} from "./Animation";
 import React, { lazy, Suspense } from 'react';
+import Social  from "./Social";
+
 const YouTube = lazy(() => import('react-youtube'));
+
+
+
 
 
 const Landing = ()=>{
@@ -47,8 +52,8 @@ const Landing = ()=>{
                         </motion.div>
 
                     </div>
-                    <div className="flex flex-col md:w-[45%]">
-                    <div className="video">
+                    <div className="flex flex-col md:w-[45%] ">
+                    <div className="video mb-[40px]">
                      <Suspense fallback={<div>Loading...</div>}>
                         <YouTube
                         videoId={videoId}
@@ -63,29 +68,8 @@ const Landing = ()=>{
                             borderRadius: "12px",
                             // width:"100%"
                          }}
-                        className="flex  md:gap-3  justify-around items-center h-[82px] md:p-5 mt-[40px]  cursor-pointer">
-                            <Link href="https://m.facebook.com/108226041732272/" target="_blank"  className="text-[#706F74] font-medium">
-                            <Image src="/fb.svg" width={40} height={40} alt="facebook-icon" />
-					        </Link>
-                            <Link href="https://twitter.com/TiaEcosystem?t=Pgz4apbcKgHVxciG0GQo0w&s=08"  target="_blank" className="text-[#706F74] font-medium">
-					        <Image src="/twt.svg" width={40} height={40} alt="twitter-icon" />
-					        </Link>
-                            <Link href="https://discord.gg/jDp5eztF"  target="_blank" className="text-[#706F74] font-medium">
-					        <Image src="/disc.svg" width={40} height={40} alt="twitter-icon" />
-					        </Link>
-                            <Link href="https://t.me/realtiacoin" target="_blank" className="text-[#706F74] font-medium">
-					        <Image src="/tel.svg" width={40} height={40} alt="telegram-icon" />
-					        </Link>
-                            <Link href="https://www.youtube.com/channel/UCtWS5o3vGdnT1aNgV6ZOVug" target="_blank"  className="text-[#706F74] font-medium">
-					        <Image src="/yout.svg" width={40} height={40} alt="youtube-icon" />
-					        </Link>
-                            <Link href="https://instagram.com/tiaecosystem?igshid=YmMyMTA2M2Y=" target="_blank" className="text-[#706F74] font-medium">
-					        <Image src="/ig.svg" width={40} height={40} alt="instagram-icon" />
-					        </Link>
-                            <Link href="https://www.linkedin.com/mwlite/company/tiacoin" target="_blank" className="text-[#706F74] font-medium">
-                            <Image src="/link.svg" width={40} height={40} alt="linkedin-icon" /> 
-
-					        </Link>                    
+                            > 
+                            <Social padding={5}/>                  
                         </div>
                     </div>
                 </motion.div>

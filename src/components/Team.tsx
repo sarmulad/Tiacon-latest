@@ -11,24 +11,33 @@ import { Keyboard, Scrollbar, Navigation, Pagination, Autoplay } from "swiper";
 import ArrowLeft from "../icons/arrow-circle-left.svg"
 import ArrowRight from "../icons/arrow-circle-right.svg"
 
+import Member1 from "../icons/member1.webp"
+import Member2 from "../icons/member2.png"
+import Member3 from "../icons/member3.webp"
+import Member4 from "../icons/member4.webp"
+import Member5 from "../icons/member5.webp"
+
+import type { StaticImageData } from 'next/image';
+
 
 
 interface MemberCardProps {
-    image:string,
+    Member:StaticImageData,
     name:string,
     position:string,
     linkedin:string,
 
 }
 
-const MemberCard:React.FC<MemberCardProps> = ({  image, name, position, linkedin}) => {
+const MemberCard:React.FC<MemberCardProps> = ({  Member, name, position, linkedin}) => {
     return (
         <div className={` w-1/1  p-[40px] flex flex-col items-center`}>
-            <Image quality={100} src={`/${image}`} alt="member-image" height={220} width={220}/>
+             <Image src={Member} alt="member-Member" height={220} width={220}/>
             <h4 className="font-bold text-[20px]  mt-[10px]">{name}</h4>
             <p className="text-[14px] md:text-[16px] leading-[22px] text-[#706F74]">{position}</p>
             <a href={`${linkedin}`}>
-              <Image quality={80} src="linkedin.svg" alt="member-image" height={30} width={30}/>  
+              <Image quality={80} src="linkedin.svg" alt="image-linkedin" height={30} width={30}/>  
+
             </a>
                             
         </div>
@@ -44,7 +53,7 @@ const Team = ()=>{
             viewport={{once:false, amount:0.1}}
             transition={{staggerChildren:0.5}}
             variants={SectionFade}
-          className='bg-[#0A0F20] relative pt-[40px] md:pt-[0px] md:pb-[123px] md:px-[35px] mt-[50px] flex flex-col items-center '>
+            className='bg-[#0A0F20] relative pt-[40px] md:pt-[0px] md:pb-[123px] md:px-[35px] mt-[50px] flex flex-col items-center '>
             <h1 className="font-bold text-[48px] text-center leading-[51px] mb-[30px] md:pt-[80px]">The Team</h1>
             <ArrowLeft className=" md:block swiper-arrow-left absolute top-[60%]  md:top-[50%] translate-y-[-50%] left-[10%] md:left-[22%] z-10  cursor-pointer"/>
 			      <ArrowRight className=" md:block swiper-arrow-right absolute top-[60%] md:top-[50%] translate-y-[-50%] right-[10%] z-10 md:right-[22%] cursor-pointer"/>
@@ -60,7 +69,7 @@ const Team = ()=>{
                     autoplay={{
 						        delay: 2500,
 						        disableOnInteraction: true,
-					}}
+					         }}
                     keyboard={{
                     enabled: true,
                     }}
@@ -80,7 +89,7 @@ const Team = ()=>{
                     >
                     <SwiperSlide>
                       <MemberCard
-                          image="member1.webp"
+                          Member={Member1}
                           name="Rudr Rishi"
                           position="CEO & Founder"
                           linkedin="https://www.linkedin.com/in/rishi-rudr"
@@ -88,7 +97,7 @@ const Team = ()=>{
                     </SwiperSlide>
                     <SwiperSlide>
                       <MemberCard
-                          image="member4.png"
+                          Member={Member2}
                           name="Dhanush Devang"
                           position="CMO"
                           linkedin="https://www.linkedin.com/in/sai-dhanush-p-9b0aa6178"
@@ -96,7 +105,7 @@ const Team = ()=>{
                     </SwiperSlide>
                     <SwiperSlide>
                       <MemberCard
-                        image="member2.webp"
+                        Member={Member3}
                         name="Mark Warton"
                         position="CTO - treeclan"
                         linkedin="https://www.linkedin.com/in/markwarton"
@@ -104,7 +113,7 @@ const Team = ()=>{
                     </SwiperSlide>
                     <SwiperSlide>
                       <MemberCard
-                        image="member3.webp"
+                        Member={Member4}
                         name="Servesh Gupta"
                         position="CTO - Tiasecure"
                         linkedin="https://www.linkedin.com/in/sarvesh-d-gupta-62409712/"
@@ -112,7 +121,7 @@ const Team = ()=>{
                     </SwiperSlide>
                     <SwiperSlide>
                       <MemberCard
-                        image="member4.webp"
+                        Member={Member5}
                         name="Monika Podar"
                         position="CFO & cofounder"
                         linkedin="https://www.linkedin.com/in/monika-poddar-shetty-469b331b6"
