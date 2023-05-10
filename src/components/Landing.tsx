@@ -1,31 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
-// import { useMediaQuery } from "react-responsive";
-// import Video from "./VideoBackground";
-import YouTube from 'react-youtube';
 import TypingText from "./TypingText";
 import { motion } from "framer-motion";
 import {Fade,} from "./Animation";
 
 
 const Landing = ()=>{
-    const videoId = 'HZB0DG-mzCw';
-    // const isMobile = useMediaQuery({ maxWidth: 768 });
+
 
     return(      
-       <div className=" pb-6">
-               {/* <Video
-					source="/web.mp4"
-					fallbackImage="fallback.svg"
-					className="covers "
-				/> */}
-                {/* <Video
-					source="/globalmobile.mp4"
-					fallbackImage="fallback.svg"
-					className="covers block md:hidden"
-				/> */}
-          {/* {!isMobile ? <Video source="/web.mp4"  fallbackImage="fallback.svg"/> :<Video source="/mobile.mp4"  fallbackImage="mobilefallback.svg"/>} */}
-          <div className='md:w-[1300px]  px-[35px] mt-[50px] md:mt-[0px] md:px-[0]'>
+       <div className=" pb-6  ">
+          <div className='md:w-[1300px]  px-[35px] mt-[50px] md:mt-[0px] md:px-[0] '>
             <div className='flex flex-col gap-[32px] md:gap-[0px] md:px-[50px] '>
                 <motion.div 
                  initial={"offscreen"}
@@ -59,11 +44,16 @@ const Landing = ()=>{
                         </motion.div>
 
                     </div>
-                    <div className="flex flex-col">
+                    <div className="flex flex-col md:w-[45%]">
                       <div className="video">
-                        <YouTube videoId={videoId} className="hidden md:flex" />
+                        {/* <YouTube videoId={videoId} className=" md:flex " /> */}
+                        <iframe  
+                           src="https://www.youtube.com/embed/KB11VYwccf8" 
+                           title="TiaCoin.io , A Revolution , A New Era of Blockchain Technology." 
+                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        />
+
                       </div>
-                        {/* <Image src="/videoframe.svg" width={486} height={286} alt="icon" className="hidden md:block" /> */}
                         <div 
                          style={{
                             background: " rgba(101, 180, 193, 0.17)",
@@ -71,27 +61,27 @@ const Landing = ()=>{
                             borderRadius: "12px",
                             // width:"100%"
                          }}
-                        className="flex  md:gap-3  justify-around items-center h-[82px] md:p-5 md:mt-[60px]  cursor-pointer">
+                        className="flex  md:gap-3  justify-around items-center h-[82px] md:p-5 mt-[40px]  cursor-pointer">
                             <Link href="https://m.facebook.com/108226041732272/" target="_blank"  className="text-[#706F74] font-medium">
-                            <Image src="/fbgrey.svg" width={40} height={40} alt="facebook-icon" />
+                            <Image src="/fb.svg" width={40} height={40} alt="facebook-icon" />
 					        </Link>
                             <Link href="https://twitter.com/TiaEcosystem?t=Pgz4apbcKgHVxciG0GQo0w&s=08"  target="_blank" className="text-[#706F74] font-medium">
-					        <Image src="/twtgrey.svg" width={40} height={40} alt="twitter-icon" />
+					        <Image src="/twt.svg" width={40} height={40} alt="twitter-icon" />
 					        </Link>
-                            <Link href="#"  target="_blank" className="text-[#706F74] font-medium">
+                            <Link href="https://discord.gg/jDp5eztF"  target="_blank" className="text-[#706F74] font-medium">
 					        <Image src="/disc.svg" width={40} height={40} alt="twitter-icon" />
 					        </Link>
                             <Link href="https://t.me/realtiacoin" target="_blank" className="text-[#706F74] font-medium">
-					        <Image src="/telgrey.svg" width={40} height={40} alt="telegram-icon" />
+					        <Image src="/tel.svg" width={40} height={40} alt="telegram-icon" />
 					        </Link>
                             <Link href="https://www.youtube.com/channel/UCtWS5o3vGdnT1aNgV6ZOVug" target="_blank"  className="text-[#706F74] font-medium">
-					        <Image src="/youtgrey.svg" width={40} height={40} alt="youtube-icon" />
+					        <Image src="/yout.svg" width={40} height={40} alt="youtube-icon" />
 					        </Link>
                             <Link href="https://instagram.com/tiaecosystem?igshid=YmMyMTA2M2Y=" target="_blank" className="text-[#706F74] font-medium">
-					        <Image src="/iggrey.svg" width={40} height={40} alt="instagram-icon" />
+					        <Image src="/ig.svg" width={40} height={40} alt="instagram-icon" />
 					        </Link>
                             <Link href="https://www.linkedin.com/mwlite/company/tiacoin" target="_blank" className="text-[#706F74] font-medium">
-                            <Image src="/linkgrey.svg" width={40} height={40} alt="linkedin-icon" /> 
+                            <Image src="/link.svg" width={40} height={40} alt="linkedin-icon" /> 
 
 					        </Link>                    
                         </div>

@@ -135,7 +135,7 @@ const Project = () => {
 				>
 					<SwiperSlide>
 						<ProjectItem
-							icon="tiasecure.svg"
+							icon="tiasecure.webp"
 							bgColor="#16242F"
 							btnColor="#00C8CB"
 							content="TiaSecure project provides comprehensive cyber security protection for all digital assets and personal devices. It safeguards against various cyber threats, including ransomware, spyware, and virus attacks. TiaSecure also ensures online banking, shopping security, protects children online, manages passwords, provides Dark Web Monitoring to prevent identity theft and offers a secure VPN and quick audit reports for smart contracts. It is the ultimate solution for all cyber security needs."

@@ -43,17 +43,17 @@ const Stat = () => {
         }}
         transition={{ duration: 1 }}
       >
-        <h1 className="font-[400] text-[32px] md:text-[48px] text-start leading-[60px] mb-[64px] max-w-[350px] md:max-w-[549px] ">
-          Imagine the largest, most thriving <span className="font-bold">blockchain ecosystem </span> in two years...
+        <h1 className="font-bold  text-[32px] md:text-[48px]  md:mb-[100px] text-center leading-[60px] mb-[64px]  ">
+          OUR PROJECTIONS
         </h1>
         <div className=" relative flex flex-col md:flex-row gap-10 mb-[40px] Stat-card}">
-          <StatCard title="$131.4M" content="TiaXchange trading 24-hour trading volume" />
-          <StatCard title="$1.22B" content="TIAMV virtual environment value" />
+          <StatCard title="$131.4M" content="TiaXchange potential 24-hour trading volume" />
+          <StatCard title="$1.22B" content="TIAMV potential virtual environment value" />
         </div>
 
         <div className="flex flex-col md:flex-row md:mt-6 w-full gap-10  Stat-card}">
-          <StatCard title="102k" content="TiaSecure total userbase" />
-          <StatCard title="63k" content="Treeclan daily active users" />
+          <StatCard title="102k" content="TiaSecure potential total userbase" />
+          <StatCard title="63k" content="Treeclan potential daily active users" />
         </div>
       </motion.div>
     </div>

@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-import {Fade, SectionFade} from "./Animation";
 
 import Xch from "../icons/xch.svg";
 import Adt from "../icons/adt.svg";
@@ -34,12 +32,7 @@ const FeatureCard:React.FC<FeatureProps> = ({ title, icon, content}) => {
  
 const Features = () => {
     return(
-        <motion.div 
-            initial={"offscreen"}
-            whileInView={"onscreen"}
-            viewport={{once:false, amount:0.1}}
-            transition={{staggerChildren:0.5}}
-            variants={SectionFade}
+        <div 
             className="bg-[#0A0F20] py-[107px] px-[35px] md:px-[50px] flex flex-col items-center" id="Features">
                 <h1 className="font-bold text-[40px] text-center leading-[51px] mb-[64px] md:mb-[200px]">FEATURES</h1>
                 <div className=" relative flex flex-col md:flex-row w-full gap-10 max-w-[1000px] features-card} mb-[30px]">
@@ -96,7 +89,7 @@ const Features = () => {
                     />
                 </div>
 
-            </motion.div>
+            </div>
     )
 }
 

@@ -57,7 +57,7 @@ const Stake = () => {
     return(
         <div className="bg-[#0A0F20] py-[107px] px-[0px] md:px-[50px] ">
               <div className="max-w-[1000px] m-auto">
-                <h1 className="font-[400] text-[32px] md:text-[48px] ml-[50px]  text-start leading-[60px] mb-[64px] max-w-[216px] md:max-w-[316px] ">Stake TIA Get Rewarded</h1>
+                <h1 className="font-bold text-[32px] md:text-[48px] ml-[50px]  text-center leading-[60px] mb-[64px] md:mb-[100px] ">STAKING</h1>
                 <div className=" relative  flex flex-col-reverse md:flex-row gap-10 md:gap-20 mb-[40px] items-center justify-center}">
                     <StakeCard />
                     <StakeWallet/>

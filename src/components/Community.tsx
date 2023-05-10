@@ -94,15 +94,23 @@ const CommunityCard: React.FC<CommunityProps> = ({ content }) => {
     const slide1 = communityContent.slice(0, 8);
     const slide2 = communityContent.slice(8, 16);
     return (
-      <div className="bg-[#0D1631] py-[107px] px-[35px] md:px-[50px] ">
+      <div className="bg-[#0D1631] py-[107px] px-[35px] md:px-[50px] w-full ">
         <div className="m-auto">
-          <h1 className="font-[400] text-[24px] md:text-[40px] text-start leading-[30px] md:leading-[60px] mb-[64px] md:mb-[100px] ml-[40rem] md:ml-[20rem] max-w-[225px] md:max-w-[549px] ">
-            Interact with our buzzing community!
+          <h1 className="font-bold text-[35px] md:text-[40px] text-center leading-[30px] md:leading-[60px] mb-[64px] md:mb-[80px]  ">
+            CONNECT WITH US
           </h1>
-          <div className="flex flex-col flex-nowrap  gap-6 max-w-[1600px] m-auto card-container">
+            <div className="md:w-[50%] m-auto">
+             <a className="twitter-timeline" data-height="600" data-theme="light" 
+                href="https://twitter.com/TiaEcosystem?ref_src=twsrc%5Etfw">
+                </a>
+                <script async src="https://platform.twitter.com/widgets.js" ></script>
+
+            </div>
+                    {/* <div className="flex flex-col flex-nowrap  gap-6 max-w-[1600px] m-auto card-container">
             <div className="card-item">
               {slide1.map(({ id, content }) => (
                 <CommunityCard key={id} content={content} />
+                 
               ))}
             </div>
             <div className="card-item">
@@ -110,7 +118,7 @@ const CommunityCard: React.FC<CommunityProps> = ({ content }) => {
                 <CommunityCard key={id} content={content} />
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     );

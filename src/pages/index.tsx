@@ -36,8 +36,12 @@ export default function Home() {
 			</Head>
 			<main className=" flex flex-col items-center">
 				<Cookies />
-				<Navbar />
-				<Landing />
+				 <div className="landing w-full">
+					<div className=" max-w-[1300px] m-auto">
+					<Navbar />
+					<Landing />
+					</div>
+				 </div>
 				<div className="w-full">
 					<Revolution />
 				</div>

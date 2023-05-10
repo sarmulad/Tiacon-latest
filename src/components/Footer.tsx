@@ -65,9 +65,15 @@ const Footer = () => {
 					<Link href="https://www.linkedin.com/mwlite/company/tiacoin" className="text-[#706F74] font-medium">
 					  <Image src="/ink.svg" alt="social-icon" height={32} width={32} />
 					</Link>
+					<Link href="https://instagram.com/tiaecosystem?igshid=YmMyMTA2M2Y=" target="_blank" className="text-[#706F74] font-medium">
+					    <Image src="/ig.svg" width={40} height={40} alt="instagram-icon" />
+					 </Link>
 					<Link href="https://www.youtube.com/channel/UCtWS5o3vGdnT1aNgV6ZOVug" className="text-[#706F74] font-medium">
 					  <Image src="/yout.svg" alt="social-icon" height={32} width={32} />
-					</Link>						
+					</Link>		
+					<Link href="https://discord.gg/jDp5eztF"  target="_blank" className="text-[#706F74] font-medium">
+					    <Image src="/disc.svg" width={40} height={40} alt="twitter-icon" />
+					</Link>				
 						
 					</div>
 				</div>

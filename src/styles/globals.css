@@ -21,11 +21,25 @@ input:hover, input:active, input:focus {
   background-color: transparent !important;
   outline:none;
 }
-
-.video-wrapper{
-  width:100%;
-  height:auto;
+.landing{
+  background: linear-gradient(144.83deg, #0A1126 35.6%, #AC1CEF 141.13%);
 }
+.video{
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+
 .active{
   background: linear-gradient(109.88deg, #38DBFF 1.73%, #243AFF 107.46%);
   -webkit-background-clip: text;

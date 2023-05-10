@@ -1,21 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { motion } from "framer-motion";
 
-import { Fade , imageAnimate, SectionFade} from "./Animation";
 
 const Revolution = () => {
 	return (
 		<div className="bg-[#0A1126] pt-[40px] md:pt-[123px] pb-[123px] px-[35px] mt-[50px] md:mt-[0px] md:px-[0]">
-			<motion.div 
+			<div 
 				className="md:flex md:flex-row flex flex-col-reverse md:max-w-[1240px] md:m-[auto] md:items-start gap-[32px] md:gap-[40px] md:px-[50px]"
-				initial={"offscreen"}
-				whileInView={"onscreen"}
-				viewport={{once:false, amount:0.2}}
-				transition={{staggerChildren:0.5}}
 			>
-				<motion.div 
-				    variants={SectionFade}
+				<div 
 				 	className="md:flex items-start justify-between flex-col flex-1"
 				>
 					<div className="w-1/1  flex flex-col py-[20px]">
@@ -60,10 +53,9 @@ const Revolution = () => {
 							</Link>
 						</div>
 					</div>
-				</motion.div>
+				</div>
 
-				<motion.div 
-				variants={imageAnimate}
+				<div 
 				 className="w-1/1 md:block flex-1 md:mt-20   ">
 					<Image
 						src="/tiaillustration.png"
@@ -72,8 +64,8 @@ const Revolution = () => {
 						alt="Revolution"
 						className="w-[90%] revolution-img"
 					/>
-				</motion.div>
-			</motion.div>
+				</div>
+			</div>
 		</div>
 	);
 };
