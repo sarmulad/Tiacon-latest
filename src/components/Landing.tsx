@@ -17,8 +17,8 @@ const Landing = ()=>{
     const videoId = "KB11VYwccf8"
 
     return(      
-       <div className=" pb-6  ">
-          <div className='md:w-[1300px]  px-[35px] mt-[50px] md:mt-[0px] md:px-[0] '>
+       <div>
+          <div className='md:w-[1300px]  p-[35px] mt-[30px] md:mt-[0px]  '>
             <div className='flex flex-col gap-[32px] md:gap-[0px] md:px-[50px] '>
                 <motion.div 
                  initial={"offscreen"}
