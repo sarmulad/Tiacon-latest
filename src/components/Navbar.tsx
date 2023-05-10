@@ -1,8 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
-
 
 interface NavItemsProps {
   href: string;
@@ -68,23 +67,25 @@ const DesktopNavbar = () => {
 
 const MobileNav = () => {
   const [mobileNavIsOpen, setMobileNavIsOpen] = useState(false)
-  
+
+ 
+
   const handleMobileNavClose = () => {
     setMobileNavIsOpen(false); 
   };
   return(
-    <div className={`md:hidden ${mobileNavIsOpen && "bg-[#0A0F20]"} w-[100%] px-[30px] py-[50px]`}>
+    <div className={`md:hidden ${mobileNavIsOpen && "bg-[#0A0F20] h-[100vh] fixed top-0 left-0 w-[100%] overflow-auto z-20"} w-[100%]   px-[30px] py-[50px]`}>
       {
         mobileNavIsOpen ? (
           <>
             <div className=" flex justify-between mb-[38px] items-center">
             <Link href="/">
-            <Image alt="menu" className="inline" src="/tialogo.webp" width={97.6} height={33.2} unoptimized={true} quality={100}/>
+            <Image alt="menu" className="inline" src="/tialogo.webp" width={97.6} height={33.2} quality={100}/>
             </Link>
 
-              <Image alt="close" className="inline" src="/close.svg" width={30} height={30} unoptimized={true} onClick={()=>setMobileNavIsOpen(!mobileNavIsOpen)}/>
+              <Image alt="close" className="inline" src="/close.svg" width={30} height={30} onClick={()=>setMobileNavIsOpen(!mobileNavIsOpen)}/>
             </div>
-             <div className="flex flex-col gap-[48px]">
+             <div className="flex flex-col gap-[48px] pt-[50px]">
                 <NavItem href="/" label="Home" setIsMobileNavOpen={handleMobileNavClose}/>
                 <NavItem href="/#Features" label="Features" setIsMobileNavOpen={handleMobileNavClose}/>
                 <NavItem href="//whitepaper.pdf" label="Whitepaper" setIsMobileNavOpen={handleMobileNavClose}/>

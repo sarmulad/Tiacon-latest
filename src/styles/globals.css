@@ -8,6 +8,11 @@ body {
   overflow-x: hidden !important;
 }
 
+body.mobile-nav-open {
+  overflow: hidden !important;
+}
+
+
 html{
   overflow-x:hidden;
   scroll-behavior: smooth !important;

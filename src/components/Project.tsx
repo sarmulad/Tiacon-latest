@@ -52,7 +52,7 @@ const ProjectItem: React.FC<ProjectItemsProp> = ({
 				className="rounded-13px md:px-30px  h-full bg-custom-color"
 				style={{ '--bg-color': bgColor } as React.CSSProperties}
 			>
-               <Image quality={100} src={`/${icon}`} alt="member-image" height={80} width={160} className='w-[auto] h-[auto] mb-[20px]'/>
+               <Image quality={90} src={`/${icon}`} alt="member-image" height={80} width={160} className='w-[auto] h-[auto] mb-[20px]'/>
 				  
 				<p className="text-[14px] md:text-[16px] font-[500] leading-[22px]">
 					{content}
@@ -66,11 +66,12 @@ const ProjectItem: React.FC<ProjectItemsProp> = ({
 					style={{ '--bg-color': btnColor } as React.CSSProperties}
 				>
 					Learn More
-					<Image quality={100}
+					<Image 
 						src="/arrow-right.png"
 						alt="arrow-icon"
 						height={10}
 						width={20}
+						unoptimized
 					/>
 				</button>
 				</a>
@@ -89,7 +90,7 @@ const Project = () => {
 					fallbackImage="projectfallback.webp"
 					className="covers"
 				/> */}
-				<h1 className="relative font-bold text-[30px] md:text-[40px] text-center leading-[51px] mb-[30px] md:my-[40px]">
+				<h1 className="relative font-bold text-[35px] md:text-[40px] text-center leading-[51px] mb-[60px] md:mb-[80px]">
 					OUR PROJECTS
 				</h1>
 				<ArrowLeft className="hidden md:block swiper-arrow-left absolute top-[50%] translate-y-[-50%] left-[22px] cursor-pointer"/>
@@ -115,7 +116,7 @@ const Project = () => {
 					coverflowEffect={{
 						rotate: 50,
 						stretch: 0,
-						depth: 100,
+						depth: 80,
 						modifier: 1,
 						slideShadows: false,
 					}}

@@ -28,7 +28,7 @@ const MemberCard:React.FC<MemberCardProps> = ({  image, name, position, linkedin
             <h4 className="font-bold text-[20px]  mt-[10px]">{name}</h4>
             <p className="text-[14px] md:text-[16px] leading-[22px] text-[#706F74]">{position}</p>
             <a href={`${linkedin}`}>
-              <Image quality={100} src="linkedin.svg" alt="member-image" height={30} width={30}/>  
+              <Image quality={80} src="linkedin.svg" alt="member-image" height={30} width={30}/>  
             </a>
                             
         </div>
