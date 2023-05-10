@@ -34,7 +34,7 @@ const Features = () => {
     return(
         <div 
             className="bg-[#0A0F20] py-[107px] px-[35px] md:px-[50px] flex flex-col items-center" id="Features">
-                <h1 className="font-bold text-[40px] text-center leading-[51px] mb-[64px] md:mb-[200px]">FEATURES</h1>
+                <h1 className="font-bold  text-[24px] md:text-[48px] text-center leading-[51px] mb-[64px] md:mb-[200px]">FEATURES</h1>
                 <div className=" relative flex flex-col md:flex-row w-full gap-10 max-w-[1000px] features-card} mb-[30px]">
                     <FeatureCard 
                     icon={<Xch/>}

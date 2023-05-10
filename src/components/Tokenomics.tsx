@@ -10,7 +10,7 @@ const Tokenomics = ()=>{
   const labels = ['Public Sale:37.42%', 'Locked Token:34.02%', 'Funding Round Sale: 0.51%', 'Management:14.80%', "Staff E-swap:6.8%", "Administration & Legal:2.04%", "Project development:4.08%", "Bounty Program: 0.34%"];
     return(           
         <div className='bg-[#0A0F20] md:w-[1300px] w-full m-auto pt-[0px] md:pt-[100px] pb-[123px] px-[35px]  md:mt-[0px] md:px-[0]' id="tokenomics">
-            <h1 className="font-bold text-[48px] text-center leading-[51px] mb-[64px]">Tokenomics</h1>
+            <h1 className="font-bold text-[24px] md:text-[48px] text-center leading-[51px] mb-[64px]">Tokenomics</h1>
             <div className="md:ml-[130px] mb-[5rem]">
               <p className="font-[500] leading-[22px] p-1 text-[16px]">Name : TIA Coin</p>
               <p className="font-[500] leading-[22px] p-1 text-[16px]">Token Ticker : TIAC</p>

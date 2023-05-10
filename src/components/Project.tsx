@@ -1,7 +1,5 @@
 import Image from 'next/image';
-// import bg from '../../public/bg.webp';
 import frost from '../../public/frost.svg';
-// import Video from './VideoBackground';
 import ArrowLeft from "../icons/arrow-circle-left.svg"
 import ArrowRight from "../icons/arrow-circle-right.svg"
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -84,13 +82,8 @@ const Project = () => {
 	return (
 		<>
 			<div className="relative py-10 px-5 md:py-20 md:px-10 md:p-14 " id='project'>
-				<div className='absolute top-0 left-0 h-full w-full '></div>
-				{/* <Video
-					source="/project.mp4"
-					fallbackImage="projectfallback.webp"
-					className="covers"
-				/> */}
-				<h1 className="relative font-bold text-[35px] md:text-[40px] text-center leading-[51px] mb-[60px] md:mb-[80px]">
+				<div className='absolute top-0 left-0  w-full '></div>
+				<h1 className="relative font-bold text-[24px] md:text-[48px] text-center leading-[51px] mb-[60px] md:mb-[80px]">
 					OUR PROJECTS
 				</h1>
 				<ArrowLeft className="hidden md:block swiper-arrow-left absolute top-[50%] translate-y-[-50%] left-[22px] cursor-pointer"/>

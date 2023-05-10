@@ -43,7 +43,7 @@ const Stat = () => {
         }}
         transition={{ duration: 1 }}
       >
-        <h1 className="font-bold  text-[32px] md:text-[48px]  md:mb-[100px] text-center leading-[60px] mb-[64px]  ">
+        <h1 className="font-bold  text-[24px] md:text-[48px]  md:mb-[100px] text-center leading-[60px] mb-[64px]  ">
           OUR PROJECTIONS
         </h1>
         <div className=" relative flex flex-col md:flex-row gap-10 mb-[40px] Stat-card}">
