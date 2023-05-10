@@ -88,7 +88,7 @@ const MobileNav = () => {
              <div className="flex flex-col gap-[48px] pt-[50px]">
                 <NavItem href="/" label="Home" setIsMobileNavOpen={handleMobileNavClose}/>
                 <NavItem href="/#Features" label="Features" setIsMobileNavOpen={handleMobileNavClose}/>
-                <NavItem href="//whitepaper.pdf" label="Whitepaper" setIsMobileNavOpen={handleMobileNavClose}/>
+                <NavItem href="//whitepaper.pdf"  label="Whitepaper" setIsMobileNavOpen={handleMobileNavClose}/>
                 <NavItem href="/#Faq" label="Faq" setIsMobileNavOpen={handleMobileNavClose}/>
                 <NavItem href="https://Wa.me/61493687449"  label="Contact us" setIsMobileNavOpen={handleMobileNavClose}/>
 

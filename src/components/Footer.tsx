@@ -48,7 +48,9 @@ const Footer = () => {
 						alt="logo"
 						height={95}
 						width={166}
-						className="mb-[32px] md:mb-[22px]"
+						unoptimized={true} 
+						quality={100}
+						className="mb-[32px] md:mb-[22px] "
 					/>
 					<h4 className="text-[20px] md:text-[24px] font-medium text-[#fff] leading-[30px]">
 						connect with us

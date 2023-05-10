@@ -41,7 +41,7 @@ const Revolution = () => {
 							individuals worldwide like never before.
 						</p>
 						<div className="flex justify-start mt-[32px]">
-							<Link href="/#">
+							<Link href="/whitepaper.pdf" target='_blank'>
 								<button className="  w-[142px] gap-1 md:w-[187px] h-[60px] mb-[56px] flex text-center justify-center rounded-[64px] text-[#fff] text-[14px] font-[600] leading-[18px] md:px-[40px] px-[12px] py-[18px] md:py-[21px] gradient-button">
 									Learn more
 									<Image
