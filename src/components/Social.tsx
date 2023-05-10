@@ -1,13 +1,13 @@
 import React from 'react';
 import Link from "next/link";
 
-import Fb from "../Icons/fb.svg";
-import Twt from "../Icons/twt.svg";
-import Disc from "../Icons/disc.svg";
-import Tel from "../Icons/tel.svg";
-import Yout from "../Icons/yout.svg";
-import Ig from "../Icons/ig.svg";
-import Linke from "../Icons/link.svg";
+import Fb from "../icons/fb.svg";
+import Twt from "../icons/twt.svg";
+import Disc from "../icons/disc.svg";
+import Tel from "../icons/tel.svg";
+import Yout from "../icons/yout.svg";
+import Ig from "../icons/ig.svg";
+import Linke from "../icons/link.svg";
 import { Url } from 'url';
 
 const SocialData = [
@@ -57,7 +57,7 @@ interface SocialProps {
  const Social = ({ padding }: SocialProps) => {
     return (
         <div
-         className={`flex md:gap-3 justify-between items-center h-[82px] md:p-${padding} cursor-pointer`}
+         className={`flex md:gap-3 justify-around items-center h-[82px] md:p-${padding} cursor-pointer`}
          >
             {SocialData.map(({ id, link, Icon }) => (
                 <span key={id}>
