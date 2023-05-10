@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import Video from './VideoBackground';
+// import Video from './VideoBackground';
 import { useMediaQuery } from 'react-responsive';
 
 const cities = ['Los Angeles', 'Tel Aviv', 'Delhi', 'Sydney', 'Auckland'];
