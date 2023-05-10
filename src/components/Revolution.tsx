@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Revolution = () => {
 	return (
-		<div className="bg-[#0A1126] pt-[40px] md:pt-[123px] pb-[123px] px-[35px] mt-[50px] md:mt-[0px] md:px-[0]">
+		<div className="bg-[#0A1126] pt-[40px] md:pt-[123px] pb-[123px] px-[35px]  md:mt-[0px] md:px-[0]">
 			<div 
 				className="md:flex md:flex-row flex flex-col-reverse md:max-w-[1240px] md:m-[auto] md:items-start gap-[32px] md:gap-[40px] md:px-[50px]"
 			>
