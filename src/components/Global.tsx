@@ -21,7 +21,7 @@ const Global = () => {
 	return (
 		<div 
 		style={{
-			background: `url("/global.png")`,
+			background: `url("/global.webp")`,
 			backgroundSize: 'cover',
 		}}
 		className=" relative py-[107px] w-[100%] px-[35px] md:px-[50px] md:h-[100vh] flex flex-col items-center justify-center">

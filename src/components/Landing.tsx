@@ -3,10 +3,13 @@ import Link from "next/link";
 import TypingText from "./TypingText";
 import { motion } from "framer-motion";
 import {Fade,} from "./Animation";
+import React, { lazy, Suspense } from 'react';
+const YouTube = lazy(() => import('react-youtube'));
 
 
 const Landing = ()=>{
 
+    const videoId = "KB11VYwccf8"
 
     return(      
        <div className=" pb-6  ">
@@ -45,15 +48,14 @@ const Landing = ()=>{
 
                     </div>
                     <div className="flex flex-col md:w-[45%]">
-                      <div className="video">
-                        {/* <YouTube videoId={videoId} className=" md:flex " /> */}
-                        <iframe  
-                           src="https://www.youtube.com/embed/KB11VYwccf8" 
-                           title="TiaCoin.io , A Revolution , A New Era of Blockchain Technology." 
-                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    <div className="video">
+                     <Suspense fallback={<div>Loading...</div>}>
+                        <YouTube
+                        videoId={videoId}
+                        className="md:flex"
                         />
-
-                      </div>
+                     </Suspense>
+                    </div>
                         <div 
                          style={{
                             background: " rgba(101, 180, 193, 0.17)",
