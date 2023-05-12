@@ -57,7 +57,7 @@ const Partners = ()=>{
 
     return(           
         <div className=' bg-[#0A1126] pt-[80px] md:pt-[0px] pb-[123px] px-[35px] mt-[50px] flex flex-col items-center '>
-            <h1 className="font-bold text-[24px] text-center leading-[51px] mb-[30px] md:pt-[80px]">Our Partners</h1>
+            <h1 className="font-bold text-[24px] md:text-[48px]   text-center leading-[51px] mb-[30px] md:pt-[80px]">Our Partners</h1>
             <div className='max-w-[1300px] m-auto flex  justify-center gap-5 md:items-center '>
                {slide1.map(({url, id})=>
                  <Image quality={100} key={id} src={`/${url}`} alt="icons" height={80} width={200} className="w-[76px] md:w-[200px]"/>

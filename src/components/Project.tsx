@@ -82,7 +82,6 @@ const Project = () => {
 	return (
 		<>
 			<div className="relative py-10 px-5 md:py-20 md:px-10 md:p-14 " id='project'>
-				<div className='absolute top-0 left-0  w-full '></div>
 				<h1 className="relative font-bold text-[24px] md:text-[48px] text-center leading-[51px] mb-[60px] md:mb-[80px]">
 					OUR PROJECTS
 				</h1>
@@ -95,7 +94,7 @@ const Project = () => {
 					slidesPerView={1}
 					loop={true}
 					autoplay={{
-						delay: 2500,
+						delay: 3500,
 						disableOnInteraction: true,
 					}}
 					keyboard={{

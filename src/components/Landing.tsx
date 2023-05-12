@@ -30,7 +30,6 @@ const Landing = ()=>{
                  >
                     <div className="w-1/1 md:w-1/2 flex flex-col ">
                         <TypingText text="Be part of a groundbreaking initiative with TIA"/>
-                        {/* <h4 className="font-bold text-[38px] md:text-[60px] leading-[51px] md:leading-[73px]  text-left md:mt-[60px] mb-[32px] md:mb-[0px] animated-text">Be part of a groundbreaking initiative with TIA <br/></h4> */}
                         <motion.p variants={Fade} 
                            className="text-[16px] md:text-[20px] font-medium max-w-[350px] md:w-[80%] text-left  md:my-[30px] leading-[20px] md:leading-[30px]">
                             The first blockchain project to seamlessly 
