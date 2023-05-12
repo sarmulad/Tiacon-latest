@@ -57,7 +57,7 @@ interface SocialProps {
  const Social = ({ padding }: SocialProps) => {
     return (
         <div
-         className={`flex md:gap-2 justify-evenly items-center h-[82px] md:p-${padding} cursor-pointer`}
+         className={`flex md:gap-2 justify-evenly px-3 items-center h-[82px] md:p-${padding} cursor-pointer`}
          >
             {SocialData.map(({ id, link, Icon }) => (
                 <span key={id}>
